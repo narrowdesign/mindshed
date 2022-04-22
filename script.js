@@ -47,7 +47,6 @@ function handleMouseUpAgentMenuItem(e) {
 }
 
 function handleKeyUp(e) {
-  console.log(e.key)
   switch (e.key) {
     case 'Alt':
       canvasState.isAltKey = false;
@@ -64,8 +63,8 @@ function handleKeyUp(e) {
     case 'Enter':
       removeEmpty();
       if (canvasState.agentList.length > 0) {
-        canvasState.mouseDownX = document.body.getBoundingClientRect().width / 2 + Math.cos(canvasState.agentList.length / Math.PI * 2) * 200;
-        canvasState.mouseDownY = document.body.getBoundingClientRect().height / 2 + Math.sin(canvasState.agentList.length / Math.PI * 2) * 200;
+        canvasState.mouseDownX = document.body.getBoundingClientRect().width / 2 + Math.cos(canvasState.agentList.length / Math.PI * 2) * 200 - canvasState.x;
+        canvasState.mouseDownY = document.body.getBoundingClientRect().height / 2 + Math.sin(canvasState.agentList.length / Math.PI * 2) * 200 - canvasState.y;
       }
       createAgent();
       break;   
@@ -139,7 +138,7 @@ function handleClickAgent(e) {
       clearSelectedList();
     }
     canvasState.selectedList.push(e.currentTarget);
-  } else {
+  } else if (!canvasState.isAgentDragging) {
     canvasState.selectedList[matchIndex].classList.remove('isSelected');
     canvasState.selectedList.splice(matchIndex, 1);
   }
@@ -231,15 +230,14 @@ function handleMouseMove(e) {
     canvasState.centerX -= mouseMoveX;
     canvasState.centerY -= mouseMoveY;
     document.body.style.transform = `translate(${canvasState.x}px, ${canvasState.y}px)`;
-    applyLens(document.querySelectorAll('.agent__label'));
-    applyLens(document.querySelectorAll('.relationship__label'));
   }
   if (canvasState.startAgent) {
     canvasState.isAgentDragging = true;
-    applyLens([...canvasState.selectedList.map((item) => item.querySelector('.agent__label'))])
   } else if (canvasState.isMouseDown) {
     canvasState.isCanvasDragging = true;
   }
+  applyLens(document.querySelectorAll('.agent__label'));
+  applyLens(document.querySelectorAll('.relationship__label'));
   canvasState.mouseX = e.pageX;
   canvasState.mouseY = e.pageY;
 }
@@ -248,10 +246,10 @@ function applyLens(agentList) {
   agentList.forEach((agent) => {
     const x = agent.parentNode.getBoundingClientRect().left - canvasState.x;
     const y = agent.parentNode.getBoundingClientRect().top - canvasState.y;
-    const distX = x - canvasState.centerX;
-    const distY = y - canvasState.centerY;
+    const distX = x - canvasState.mouseX + canvasState.x;
+    const distY = y - canvasState.mouseY + canvasState.y;
     const dist = Math.sqrt(Math.pow(distX, 2) + Math.pow(distY, 2));
-    const scale = Math.max(0, 1 - dist * 0.001);
+    const scale = Math.max(0.2, 1 - dist * 0.001);
     const blur = Math.min(10, dist * 0.004);
     // agent.style.filter = `blur(${blur}px)`;
     agent.style.transform = `scale(${scale})`;
