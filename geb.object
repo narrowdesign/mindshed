@@ -1,0 +1,1480 @@
+{
+  "currentType": "concept",
+  "x": -147,
+  "y": 89,
+  "centerX": 1011,
+  "centerY": 395,
+  "isMouseDown": false,
+  "isAgentDragging": false,
+  "isCanvasDragging": false,
+  "isAltKey": true,
+  "isSelecting": false,
+  "mouseX": 535,
+  "mouseY": 654,
+  "mouseMoveX": -10,
+  "mouseMoveY": 20,
+  "mouseDownX": 1223,
+  "mouseDownY": 163,
+  "startAgent": null,
+  "endAgent": null,
+  "activeAgent": null,
+  "agentList": [
+      {
+          "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+          "scale": 2.4101867664512198,
+          "x": 781,
+          "y": 278,
+          "type": "book",
+          "label": "GEB",
+          "isSelected": false
+      },
+      {
+          "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+          "scale": 1.4700161966681478,
+          "x": 780,
+          "y": 157,
+          "type": "person",
+          "label": "hofstadter",
+          "isSelected": false
+      },
+      {
+          "uuid": "d884854e-c82d-446a-9c8e-8987d9db91df",
+          "scale": 1.3493016991019244,
+          "x": 1144,
+          "y": 478,
+          "type": "person",
+          "label": "gödel",
+          "isSelected": false
+      },
+      {
+          "uuid": "fc3376ae-118f-414f-9265-97f683533153",
+          "scale": 1.205616562217474,
+          "x": 792.479284877505,
+          "y": 454.6133464513895,
+          "type": "person",
+          "label": "escher",
+          "isSelected": false
+      },
+      {
+          "uuid": "ea6108a8-9b4d-4a50-88cf-f0c97790932b",
+          "scale": 1.3037319333851334,
+          "x": 457.38303203673365,
+          "y": 473.1205597678428,
+          "type": "person",
+          "label": "bach",
+          "isSelected": false
+      },
+      {
+          "uuid": "e2fc467a-4601-4fbb-8542-dfb8fe5186df",
+          "scale": 1,
+          "x": 916,
+          "y": 421,
+          "type": "concept",
+          "label": "recursion",
+          "isSelected": false
+      },
+      {
+          "uuid": "7efb6ef9-4988-41f9-9767-b1d7dfab4cd1",
+          "scale": 1,
+          "x": 890,
+          "y": 555,
+          "type": "concept",
+          "label": "metaphor",
+          "isSelected": false
+      },
+      {
+          "uuid": "7be48436-2ca7-4893-bb91-0f3a127a2553",
+          "scale": 1,
+          "x": 528,
+          "y": 274,
+          "type": "concept",
+          "label": "chunking",
+          "isSelected": false
+      },
+      {
+          "uuid": "7d7fa84c-b0e3-451f-8f90-1e1461f79ed3",
+          "scale": 1,
+          "x": 566,
+          "y": 133,
+          "type": "concept",
+          "label": "translation",
+          "isSelected": false
+      },
+      {
+          "uuid": "1db30ddf-ca7b-41ff-b1dc-23b462311b62",
+          "scale": 1,
+          "x": 1030,
+          "y": 186,
+          "type": "book",
+          "label": "i am a strange loop",
+          "isSelected": false
+      },
+      {
+          "uuid": "7495b5ed-8b37-44ab-aa4b-4a04d1cac472",
+          "scale": 1.3030848746746775,
+          "x": 1420,
+          "y": 319,
+          "type": "book",
+          "label": "principia mathematica",
+          "isSelected": false
+      },
+      {
+          "uuid": "2c5d1831-b4fe-40f9-aee8-a66b3e39337c",
+          "scale": 0.6,
+          "x": 1443,
+          "y": 98,
+          "type": "book",
+          "label": "history of western philosophy",
+          "isSelected": false
+      },
+      {
+          "uuid": "320159ea-b0a2-4882-82d5-08d68293ff8b",
+          "scale": 0.8991845392435783,
+          "x": 1580,
+          "y": 136,
+          "type": "person",
+          "label": "bertrand russell",
+          "isSelected": false
+      },
+      {
+          "uuid": "bd801820-a4c6-4fd9-94e5-b8d6c29ffdb1",
+          "scale": 1,
+          "x": 1622,
+          "y": 268,
+          "type": "person",
+          "label": "alfred whitehead",
+          "isSelected": false
+      },
+      {
+          "uuid": "b7284e3d-eeb0-47ed-a8f3-d60acdc05a31",
+          "scale": 0.6,
+          "x": 1621,
+          "y": 346,
+          "type": "book",
+          "label": "adventures of ideas",
+          "isSelected": false
+      },
+      {
+          "uuid": "5ad207bd-d45f-40fb-9626-8e4558d075f6",
+          "scale": 1,
+          "x": 1340,
+          "y": 282,
+          "type": "concept",
+          "label": "number theory",
+          "isSelected": false
+      },
+      {
+          "uuid": "9b6c001a-c0db-41ce-91a6-ce3eddb055d4",
+          "scale": 1,
+          "x": 352,
+          "y": 417,
+          "type": "concept",
+          "label": "fugues",
+          "isSelected": false
+      },
+      {
+          "uuid": "2fd65265-874a-40d7-a5ea-f427647c1123",
+          "scale": 1,
+          "x": 918,
+          "y": 135,
+          "type": "concept",
+          "label": "ai",
+          "isSelected": false
+      },
+      {
+          "uuid": "6864e9ab-5b90-49ad-840e-fd4e6fafb8c7",
+          "scale": 1,
+          "x": 1297,
+          "y": 711,
+          "type": "concept",
+          "label": "graph theory",
+          "isSelected": false
+      },
+      {
+          "uuid": "281f530d-d8c5-4169-9faf-588b06992a0f",
+          "scale": 1,
+          "x": 1176,
+          "y": 620,
+          "type": "person",
+          "label": "euler",
+          "isSelected": false
+      },
+      {
+          "uuid": "748ece0f-cd4a-4e8e-b317-983731c46d3c",
+          "scale": 1,
+          "x": 1039,
+          "y": 641,
+          "type": "book",
+          "label": "a most elegant equation",
+          "isSelected": false
+      },
+      {
+          "uuid": "d06f2896-9b0e-419d-82e5-2b9fe6c90f49",
+          "scale": 0.6170731174945833,
+          "x": 870,
+          "y": 94,
+          "type": "place",
+          "label": "france",
+          "isSelected": false
+      },
+      {
+          "uuid": "b8f2a950-4d02-4929-9437-45217d6e4207",
+          "scale": 0.7905312296748161,
+          "x": 634,
+          "y": 734,
+          "type": "concept",
+          "label": "ASU / USA",
+          "isSelected": false
+      },
+      {
+          "uuid": "9ad259df-3269-44cd-a4a2-409476516291",
+          "scale": 1,
+          "x": 438,
+          "y": 947,
+          "type": "book",
+          "label": "models of the mind",
+          "isSelected": false
+      },
+      {
+          "uuid": "e2a6df6d-3aba-4eea-b144-574b53b5e6fe",
+          "scale": 1.25005696631968,
+          "x": 628,
+          "y": 834,
+          "type": "concept",
+          "label": "mental models",
+          "isSelected": false
+      },
+      {
+          "uuid": "6a507896-428d-4636-80e1-f2f0f4bab1cf",
+          "scale": 1,
+          "x": 862,
+          "y": 969,
+          "type": "book",
+          "label": "thinking fast and slow",
+          "isSelected": false
+      },
+      {
+          "uuid": "5425ae94-30c8-425f-bba0-091280ac9507",
+          "scale": 1,
+          "x": 828,
+          "y": 918,
+          "type": "concept",
+          "label": "system 1",
+          "isSelected": false
+      },
+      {
+          "uuid": "37de8fb5-27a7-473b-831c-f90744d5ba66",
+          "scale": 1,
+          "x": 820,
+          "y": 976,
+          "type": "concept",
+          "label": "system 2",
+          "isSelected": false
+      },
+      {
+          "uuid": "c70544a4-3024-4d30-b4d8-c830c2a9c377",
+          "scale": 1,
+          "x": 1179,
+          "y": 889,
+          "type": "person",
+          "label": "frederick the great",
+          "isSelected": false
+      },
+      {
+          "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
+          "scale": 0.6,
+          "x": 1407,
+          "y": 756,
+          "type": "place",
+          "label": "Königsberg",
+          "isSelected": false
+      },
+      {
+          "uuid": "da6b5572-a3fa-4e4f-afe9-5fbcf524920b",
+          "scale": 0.6,
+          "x": 1563,
+          "y": 762,
+          "type": "person",
+          "label": "kant",
+          "isSelected": false
+      },
+      {
+          "uuid": "fb76388a-383a-49b2-90e4-ae2d2ae8773e",
+          "scale": 0.846552267074585,
+          "x": 1172,
+          "y": 386,
+          "type": "book",
+          "label": "godel’s proof",
+          "isSelected": false
+      },
+      {
+          "uuid": "49930751-d1f6-4669-bf8d-61cf43dd1e33",
+          "scale": 2.0323286391794686,
+          "x": 1460,
+          "y": 624,
+          "type": "concept",
+          "label": "technology",
+          "isSelected": false
+      },
+      {
+          "uuid": "7c2b803c-63a2-4b89-9479-4deea7ac4f5e",
+          "scale": 1,
+          "x": 1467,
+          "y": 573,
+          "type": "concept",
+          "label": "computers",
+          "isSelected": false
+      },
+      {
+          "uuid": "23aa96f1-9954-4dd9-b3e6-6e2c2b625356",
+          "scale": 1,
+          "x": 1466,
+          "y": 551,
+          "type": "concept",
+          "label": "electronics",
+          "isSelected": false
+      },
+      {
+          "uuid": "9978bfc9-e2d6-41fd-b2da-81132f64de8a",
+          "scale": 1,
+          "x": 1476,
+          "y": 526,
+          "type": "concept",
+          "label": "programming",
+          "isSelected": false
+      },
+      {
+          "uuid": "9f7e25e3-abbd-4ef0-abe6-23cef8073751",
+          "scale": 0.8714276966452597,
+          "x": 868,
+          "y": 59,
+          "type": "place",
+          "label": "palo alto",
+          "isSelected": false
+      },
+      {
+          "uuid": "ac6aa020-b237-43ff-948f-ff8d0c7aeef3",
+          "scale": 1,
+          "x": 839,
+          "y": 29,
+          "type": "place",
+          "label": "stanford",
+          "isSelected": false
+      },
+      {
+          "uuid": "93b1077e-541e-4ca3-9050-809ada3f4b08",
+          "scale": 1,
+          "x": 779,
+          "y": 3,
+          "type": "place",
+          "label": "U of Ill",
+          "isSelected": false
+      },
+      {
+          "uuid": "5da7a302-0b35-4a67-af96-a5070e015e79",
+          "scale": 1,
+          "x": 987,
+          "y": 78,
+          "type": "concept",
+          "label": "analogies"
+      }
+  ],
+  "relationshipList": [
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "d884854e-c82d-446a-9c8e-8987d9db91df",
+              "scale": 1.3493016991019244,
+              "x": 1144,
+              "y": 478,
+              "type": "person",
+              "label": "gödel",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "fc3376ae-118f-414f-9265-97f683533153",
+              "scale": 1.205616562217474,
+              "x": 792.479284877505,
+              "y": 454.6133464513895,
+              "type": "person",
+              "label": "escher",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "ea6108a8-9b4d-4a50-88cf-f0c97790932b",
+              "scale": 1.3037319333851334,
+              "x": 457.38303203673365,
+              "y": 473.1205597678428,
+              "type": "person",
+              "label": "bach",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "e2fc467a-4601-4fbb-8542-dfb8fe5186df",
+              "scale": 1,
+              "x": 916,
+              "y": 421,
+              "type": "concept",
+              "label": "recursion",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "7efb6ef9-4988-41f9-9767-b1d7dfab4cd1",
+              "scale": 1,
+              "x": 890,
+              "y": 555,
+              "type": "concept",
+              "label": "metaphor",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "7be48436-2ca7-4893-bb91-0f3a127a2553",
+              "scale": 1,
+              "x": 528,
+              "y": 274,
+              "type": "concept",
+              "label": "chunking",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "7d7fa84c-b0e3-451f-8f90-1e1461f79ed3",
+              "scale": 1,
+              "x": 566,
+              "y": 133,
+              "type": "concept",
+              "label": "translation",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "1db30ddf-ca7b-41ff-b1dc-23b462311b62",
+              "scale": 1,
+              "x": 1030,
+              "y": 186,
+              "type": "book",
+              "label": "i am a strange loop",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "1db30ddf-ca7b-41ff-b1dc-23b462311b62",
+              "scale": 1,
+              "x": 1030,
+              "y": 186,
+              "type": "book",
+              "label": "i am a strange loop",
+              "isSelected": false
+          },
+          {
+              "uuid": "e2fc467a-4601-4fbb-8542-dfb8fe5186df",
+              "scale": 1,
+              "x": 916,
+              "y": 421,
+              "type": "concept",
+              "label": "recursion",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "d884854e-c82d-446a-9c8e-8987d9db91df",
+              "scale": 1.3493016991019244,
+              "x": 1144,
+              "y": 478,
+              "type": "person",
+              "label": "gödel",
+              "isSelected": false
+          },
+          {
+              "uuid": "7495b5ed-8b37-44ab-aa4b-4a04d1cac472",
+              "scale": 1.3030848746746775,
+              "x": 1420,
+              "y": 319,
+              "type": "book",
+              "label": "principia mathematica",
+              "isSelected": false
+          },
+          {},
+          "was critical of"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "320159ea-b0a2-4882-82d5-08d68293ff8b",
+              "scale": 0.8991845392435783,
+              "x": 1580,
+              "y": 136,
+              "type": "person",
+              "label": "bertrand russell",
+              "isSelected": false
+          },
+          {
+              "uuid": "7495b5ed-8b37-44ab-aa4b-4a04d1cac472",
+              "scale": 1.3030848746746775,
+              "x": 1420,
+              "y": 319,
+              "type": "book",
+              "label": "principia mathematica",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "bd801820-a4c6-4fd9-94e5-b8d6c29ffdb1",
+              "scale": 1,
+              "x": 1622,
+              "y": 268,
+              "type": "person",
+              "label": "alfred whitehead",
+              "isSelected": false
+          },
+          {
+              "uuid": "7495b5ed-8b37-44ab-aa4b-4a04d1cac472",
+              "scale": 1.3030848746746775,
+              "x": 1420,
+              "y": 319,
+              "type": "book",
+              "label": "principia mathematica",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "320159ea-b0a2-4882-82d5-08d68293ff8b",
+              "scale": 0.8991845392435783,
+              "x": 1580,
+              "y": 136,
+              "type": "person",
+              "label": "bertrand russell",
+              "isSelected": false
+          },
+          {
+              "uuid": "2c5d1831-b4fe-40f9-aee8-a66b3e39337c",
+              "scale": 0.6,
+              "x": 1443,
+              "y": 98,
+              "type": "book",
+              "label": "history of western philosophy",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "bd801820-a4c6-4fd9-94e5-b8d6c29ffdb1",
+              "scale": 1,
+              "x": 1622,
+              "y": 268,
+              "type": "person",
+              "label": "alfred whitehead",
+              "isSelected": false
+          },
+          {
+              "uuid": "b7284e3d-eeb0-47ed-a8f3-d60acdc05a31",
+              "scale": 0.6,
+              "x": 1621,
+              "y": 346,
+              "type": "book",
+              "label": "adventures of ideas",
+              "isSelected": false
+          },
+          {},
+          "wrote"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "5ad207bd-d45f-40fb-9626-8e4558d075f6",
+              "scale": 1,
+              "x": 1340,
+              "y": 282,
+              "type": "concept",
+              "label": "number theory",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "7495b5ed-8b37-44ab-aa4b-4a04d1cac472",
+              "scale": 1.3030848746746775,
+              "x": 1420,
+              "y": 319,
+              "type": "book",
+              "label": "principia mathematica",
+              "isSelected": false
+          },
+          {
+              "uuid": "5ad207bd-d45f-40fb-9626-8e4558d075f6",
+              "scale": 1,
+              "x": 1340,
+              "y": 282,
+              "type": "concept",
+              "label": "number theory",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "9b6c001a-c0db-41ce-91a6-ce3eddb055d4",
+              "scale": 1,
+              "x": 352,
+              "y": 417,
+              "type": "concept",
+              "label": "fugues",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "ea6108a8-9b4d-4a50-88cf-f0c97790932b",
+              "scale": 1.3037319333851334,
+              "x": 457.38303203673365,
+              "y": 473.1205597678428,
+              "type": "person",
+              "label": "bach",
+              "isSelected": false
+          },
+          {
+              "uuid": "9b6c001a-c0db-41ce-91a6-ce3eddb055d4",
+              "scale": 1,
+              "x": 352,
+              "y": 417,
+              "type": "concept",
+              "label": "fugues",
+              "isSelected": false
+          },
+          {},
+          "composed"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "e2fc467a-4601-4fbb-8542-dfb8fe5186df",
+              "scale": 1,
+              "x": 916,
+              "y": 421,
+              "type": "concept",
+              "label": "recursion",
+              "isSelected": false
+          },
+          {
+              "uuid": "2fd65265-874a-40d7-a5ea-f427647c1123",
+              "scale": 1,
+              "x": 918,
+              "y": 135,
+              "type": "concept",
+              "label": "ai",
+              "isSelected": false
+          },
+          {},
+          "occurs in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "e2fc467a-4601-4fbb-8542-dfb8fe5186df",
+              "scale": 1,
+              "x": 916,
+              "y": 421,
+              "type": "concept",
+              "label": "recursion",
+              "isSelected": false
+          },
+          {
+              "uuid": "9b6c001a-c0db-41ce-91a6-ce3eddb055d4",
+              "scale": 1,
+              "x": 352,
+              "y": 417,
+              "type": "concept",
+              "label": "fugues",
+              "isSelected": false
+          },
+          {},
+          "occurs in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "7d7fa84c-b0e3-451f-8f90-1e1461f79ed3",
+              "scale": 1,
+              "x": 566,
+              "y": 133,
+              "type": "concept",
+              "label": "translation",
+              "isSelected": false
+          },
+          {},
+          "practices"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "281f530d-d8c5-4169-9faf-588b06992a0f",
+              "scale": 1,
+              "x": 1176,
+              "y": 620,
+              "type": "person",
+              "label": "euler",
+              "isSelected": false
+          },
+          {
+              "uuid": "6864e9ab-5b90-49ad-840e-fd4e6fafb8c7",
+              "scale": 1,
+              "x": 1297,
+              "y": 711,
+              "type": "concept",
+              "label": "graph theory",
+              "isSelected": false
+          },
+          {},
+          "invented"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "2fd65265-874a-40d7-a5ea-f427647c1123",
+              "scale": 1,
+              "x": 918,
+              "y": 135,
+              "type": "concept",
+              "label": "ai",
+              "isSelected": false
+          },
+          {},
+          "works with"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "281f530d-d8c5-4169-9faf-588b06992a0f",
+              "scale": 1,
+              "x": 1176,
+              "y": 620,
+              "type": "person",
+              "label": "euler",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "748ece0f-cd4a-4e8e-b317-983731c46d3c",
+              "scale": 1,
+              "x": 1039,
+              "y": 641,
+              "type": "book",
+              "label": "a most elegant equation",
+              "isSelected": false
+          },
+          {
+              "uuid": "281f530d-d8c5-4169-9faf-588b06992a0f",
+              "scale": 1,
+              "x": 1176,
+              "y": 620,
+              "type": "person",
+              "label": "euler",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "d06f2896-9b0e-419d-82e5-2b9fe6c90f49",
+              "scale": 0.6170731174945833,
+              "x": 870,
+              "y": 94,
+              "type": "place",
+              "label": "france",
+              "isSelected": false
+          },
+          {},
+          "lived in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "b8f2a950-4d02-4929-9437-45217d6e4207",
+              "scale": 0.7905312296748161,
+              "x": 634,
+              "y": 734,
+              "type": "concept",
+              "label": "ASU / USA",
+              "isSelected": false
+          },
+          {
+              "uuid": "e2a6df6d-3aba-4eea-b144-574b53b5e6fe",
+              "scale": 1.25005696631968,
+              "x": 628,
+              "y": 834,
+              "type": "concept",
+              "label": "mental models",
+              "isSelected": false
+          },
+          {},
+          "are"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "53984bd3-4f64-489f-9840-7c41cfe8967b",
+              "scale": 2.4101867664512198,
+              "x": 781,
+              "y": 278,
+              "type": "book",
+              "label": "GEB",
+              "isSelected": false
+          },
+          {
+              "uuid": "b8f2a950-4d02-4929-9437-45217d6e4207",
+              "scale": 0.7905312296748161,
+              "x": 634,
+              "y": 734,
+              "type": "concept",
+              "label": "ASU / USA",
+              "isSelected": false
+          },
+          {},
+          "tells a story about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "9ad259df-3269-44cd-a4a2-409476516291",
+              "scale": 1,
+              "x": 438,
+              "y": 947,
+              "type": "book",
+              "label": "models of the mind",
+              "isSelected": false
+          },
+          {
+              "uuid": "e2a6df6d-3aba-4eea-b144-574b53b5e6fe",
+              "scale": 1.25005696631968,
+              "x": 628,
+              "y": 834,
+              "type": "concept",
+              "label": "mental models",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "6a507896-428d-4636-80e1-f2f0f4bab1cf",
+              "scale": 1,
+              "x": 862,
+              "y": 969,
+              "type": "book",
+              "label": "thinking fast and slow",
+              "isSelected": false
+          },
+          {
+              "uuid": "e2a6df6d-3aba-4eea-b144-574b53b5e6fe",
+              "scale": 1.25005696631968,
+              "x": 628,
+              "y": 834,
+              "type": "concept",
+              "label": "mental models",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "281f530d-d8c5-4169-9faf-588b06992a0f",
+              "scale": 1,
+              "x": 1176,
+              "y": 620,
+              "type": "person",
+              "label": "euler",
+              "isSelected": false
+          },
+          {
+              "uuid": "c70544a4-3024-4d30-b4d8-c830c2a9c377",
+              "scale": 1,
+              "x": 1179,
+              "y": 889,
+              "type": "person",
+              "label": "frederick the great",
+              "isSelected": false
+          },
+          {},
+          "was in the court of"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "ea6108a8-9b4d-4a50-88cf-f0c97790932b",
+              "scale": 1.3037319333851334,
+              "x": 457.38303203673365,
+              "y": 473.1205597678428,
+              "type": "person",
+              "label": "bach",
+              "isSelected": false
+          },
+          {
+              "uuid": "c70544a4-3024-4d30-b4d8-c830c2a9c377",
+              "scale": 1,
+              "x": 1179,
+              "y": 889,
+              "type": "person",
+              "label": "frederick the great",
+              "isSelected": false
+          },
+          {},
+          "composed a fugue for"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "6864e9ab-5b90-49ad-840e-fd4e6fafb8c7",
+              "scale": 1,
+              "x": 1297,
+              "y": 711,
+              "type": "concept",
+              "label": "graph theory",
+              "isSelected": false
+          },
+          {
+              "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
+              "scale": 0.6,
+              "x": 1407,
+              "y": 756,
+              "type": "place",
+              "label": "Königsberg",
+              "isSelected": false
+          },
+          {},
+          "in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "da6b5572-a3fa-4e4f-afe9-5fbcf524920b",
+              "scale": 0.6,
+              "x": 1563,
+              "y": 762,
+              "type": "person",
+              "label": "kant",
+              "isSelected": false
+          },
+          {
+              "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
+              "scale": 0.6,
+              "x": 1407,
+              "y": 756,
+              "type": "place",
+              "label": "Königsberg",
+              "isSelected": false
+          },
+          {},
+          "lived in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "fb76388a-383a-49b2-90e4-ae2d2ae8773e",
+              "scale": 0.846552267074585,
+              "x": 1172,
+              "y": 386,
+              "type": "book",
+              "label": "godel’s proof",
+              "isSelected": false
+          },
+          {},
+          "wrote the preface to"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "fb76388a-383a-49b2-90e4-ae2d2ae8773e",
+              "scale": 0.846552267074585,
+              "x": 1172,
+              "y": 386,
+              "type": "book",
+              "label": "godel’s proof",
+              "isSelected": false
+          },
+          {
+              "uuid": "d884854e-c82d-446a-9c8e-8987d9db91df",
+              "scale": 1.3493016991019244,
+              "x": 1144,
+              "y": 478,
+              "type": "person",
+              "label": "gödel",
+              "isSelected": false
+          },
+          {},
+          "is about"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "9978bfc9-e2d6-41fd-b2da-81132f64de8a",
+              "scale": 1,
+              "x": 1476,
+              "y": 526,
+              "type": "concept",
+              "label": "programming",
+              "isSelected": false
+          },
+          {},
+          "practices"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "9f7e25e3-abbd-4ef0-abe6-23cef8073751",
+              "scale": 0.8714276966452597,
+              "x": 868,
+              "y": 59,
+              "type": "place",
+              "label": "palo alto",
+              "isSelected": false
+          },
+          {},
+          "grew up in"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "ac6aa020-b237-43ff-948f-ff8d0c7aeef3",
+              "scale": 1,
+              "x": 839,
+              "y": 29,
+              "type": "place",
+              "label": "stanford",
+              "isSelected": false
+          },
+          {},
+          "attended"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "93b1077e-541e-4ca3-9050-809ada3f4b08",
+              "scale": 1,
+              "x": 779,
+              "y": 3,
+              "type": "place",
+              "label": "U of Ill",
+              "isSelected": false
+          },
+          {},
+          "teaches @"
+      ],
+      [
+          [
+              {},
+              {}
+          ],
+          {
+              "uuid": "04a3192c-6cfc-4b97-935a-254cf5f8b96f",
+              "scale": 1.4700161966681478,
+              "x": 780,
+              "y": 157,
+              "type": "person",
+              "label": "hofstadter",
+              "isSelected": false
+          },
+          {
+              "uuid": "5da7a302-0b35-4a67-af96-a5070e015e79",
+              "scale": 1,
+              "x": 987,
+              "y": 78,
+              "type": "concept",
+              "label": "analogies"
+          },
+          {},
+          ""
+      ]
+  ],
+  "selectedList": [],
+  "isShiftKey": false,
+  "isSpaceKey": false,
+  "isMetaKey": true,
+  "isCtrlKey": true
+}

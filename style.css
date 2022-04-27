@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;
+  font-family: 'New York', -apple-system-ui-serif, ui-serif, 'Georgia', serif;
   padding: 0;
   margin: 0;
   max-width: 100vw;
@@ -7,13 +7,33 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: black;
+  background: radial-gradient(#110000, #000011 70%) -300px 300px no-repeat, #000011;
+  background-repeat: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: 
+    repeating-linear-gradient(330deg, #ffa07a09, transparent 40px), 
+    repeating-linear-gradient(30deg, #add8e609, transparent 40px), 
+    repeating-linear-gradient(90deg, #f7b8de09 25px, transparent 105px);
+  z-index: -1;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.map {
+  position: relative;
+  left: 0;
+  top: 0;
+}
 .agentMenu {
   position: fixed;
   z-index: 4;
@@ -27,7 +47,8 @@ body {
   transform: translate(-50%, -50%);
   transition: transform 300ms, opacity 300ms;
   padding: 5px 10px;
-  border-radius: 50px;
+  border-radius: 3px;
+  font-size: 19px;
 }
 
 .isAgentMenu .agentMenu {
@@ -36,37 +57,48 @@ body {
   user-select: none;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(1) {
-  transform: translate(calc(-50%), calc(-200% - 6px));
-  background: lightsalmon;
+.agentMenu__item--concept {
+  transform: translateX(11%) translateY(8.5%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg);
+  background: #ffa07a;
+  border-right: 3px solid #974d30;
+  border-bottom: 3px solid #0036;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(2) {
-  transform: translate(calc(-100% - 2px), calc(-100% - 2px));
-  background: lightblue;
+.agentMenu__item--book {
+  transform: translateY(-173%) translateX(20%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg);
+  background: #add8e6;
+  border-right: 3px solid #3e7a8e;
+  border-bottom: 3px solid #709fae;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(3) {
-  transform: translate(calc(0% + 2px), calc(-100% - 2px));
-  background: rgb(248, 184, 222);
+.agentMenu__item--person {
+  transform: translateY(-100%) translateX(1%) rotateY(-35.75deg) rotateZ(25deg) rotateX(330deg);
+  background: #f8b8de;
+  border-top: 3px solid #f8dece;
+  border-right: 3px solid #c780be;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(4) {
-  transform: translate(calc(-100% - 2px), calc(0% + 2px));
-  background: rgb(198, 193, 193);
+.agentMenu__item--organization {
+  transform: translateX(-79%) translateY(-66%) rotateY(35.75deg) rotateZ(-25deg) rotateX(330deg);
+  background: #c6c1c1;
+  border-top: 3px solid #ddef;
+  border-left: 3px solid #988f;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(5) {
-  transform: translate(calc(0px + 2px), calc(0% + 2px));
-  background: rgb(170, 221, 170)
+.agentMenu__item--place {
+  transform: translate(-50.5%, -47%) rotateX(54.75deg) rotateY(0deg) rotateZ(315deg);
+  background: #aaddaa;
+  border-left: 3px solid #73a973;
+  border-bottom: 3px solid #638863;
 }
 
-.isAgentMenu .agentMenu__item:nth-of-type(6) {
-  transform: translate(calc(-50%), calc(100% + 6px));
-  background: rgb(247, 247, 203)
+.agentMenu__item--other {
+  transform: translateY(100%) translateX(-50%);
+  color: #c6c1c1;
+  font-size: 16px;
 }
 
-.isAgentMenu .agentMenu__item:hover {
+.agentMenu__item:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -81,8 +113,8 @@ body {
   margin: 0;
   position: absolute;
   z-index: 2;
-  padding: 2px 15px 3px;
-  border-radius: 30px;
+  padding: 2px 12px 3px;
+  border-radius: 4px;
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -103,29 +135,39 @@ body {
   text-decoration-style: dotted;
 }
 
-.agent--idea .agent__label {
-  background: lightsalmon;
+.agent--concept .agent__label {
+  background: #ffa07a;
+  border-right: 3px solid #974d30;
+  border-bottom: 3px solid #0036;
 }
 
 .agent--book .agent__label {
-  background: lightblue;
+  background: #add8e6;
   font-style: italic;
+  border-right: 3px solid #3e7a8e;
+  border-bottom: 3px solid #709fae;
 }
 
 .agent--person .agent__label {
-  background: rgb(248, 184, 222);
+  background: #f8b8de;
+  border-top: 3px solid #f8dece;
+  border-right: 3px solid #c780be;
 }
 
-.agent--institution .agent__label {
-  background: rgb(198, 193, 193);
+.agent--organization .agent__label {
+  background: #c6c1c1;
+  border-top: 3px solid #ddef;
+  border-left: 3px solid #988f;
 }
 
 .agent--place .agent__label {
-  background: rgb(170, 221, 170);
+  background: #aaddaa;
+  border-left: 3px solid #73a973;
+  border-bottom: 3px solid #638863;
 }
 
 .agent--other .agent__label {
-  background: rgb(247, 247, 203);
+  color: #f7f7cb;
 }
 
 .isSelected .agent__label {
@@ -140,7 +182,7 @@ body {
 }
 
 .connection line {
-  stroke-width: 2;
+  
 }
 
 .relationship {
@@ -161,9 +203,31 @@ body {
   line-height: 1;
   background: black;
   color: white;
-  font-size: 14px;
-  border-radius: 30px;
-  border: 1px solid;
+  font-size: 12px;
+  border-radius: 5px;
   text-align: center;
   white-space: nowrap;
+}
+
+.selectionBox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  will-change: width;
+  will-change: height;
+  border: 1px dotted #666;
+  transform-origin: 0 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.isSelecting .selectionBox {
+  opacity: 1;
+  visibility: visible;
+}
+
+.isSpaceKey {
+  cursor: grab;
 }
