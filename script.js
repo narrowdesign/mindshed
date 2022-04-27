@@ -548,6 +548,11 @@ function connectAgents(index, text = '>') {
   } else {
     canvasState.relationshipList.push(rel);
     relationshipLabelEl.focus();
+    const range = document.createRange();
+    range.selectNodeContents(relationshipLabelEl);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
     saveState();
   }
 }

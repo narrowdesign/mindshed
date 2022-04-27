@@ -39,13 +39,15 @@ body::before {
   z-index: 4;
   opacity: 0;
   pointer-events: none;
+  left: -20px;
+  top: -20px;
 }
 
 .agentMenu__item {
   position: absolute;
   opacity: 0;
   transform: translate(-50%, -50%);
-  transition: transform 300ms, opacity 300ms;
+  transition: transform 300ms ease-out, opacity 100ms ease-out;
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 19px;
@@ -58,42 +60,67 @@ body::before {
 }
 
 .agentMenu__item--concept {
-  transform: translateX(11%) translateY(8.5%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg);
+  transform: translate(11%, 8.5%) rotateY(-35.75deg) rotateZ(25deg) rotateX(330deg) scaleY(0);
   background: #ffa07a;
   border-right: 3px solid #974d30;
   border-bottom: 3px solid #0036;
+  transition-delay: 0ms;
+}
+
+.isAgentMenu .agentMenu__item--concept {
+  transform: translate(11%, 8.5%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg) scaleY(1);
 }
 
 .agentMenu__item--book {
-  transform: translateY(-173%) translateX(20%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg);
+  transform: translate(20%, -173%) rotateY(-35.75deg) rotateZ(25deg) rotateX(330deg) scaleY(0);
   background: #add8e6;
   border-right: 3px solid #3e7a8e;
   border-bottom: 3px solid #709fae;
+  transition-delay: 200ms;
+}
+
+.isAgentMenu .agentMenu__item--book {
+  transform: translate(20%, -173%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg) scaleX(1);
 }
 
 .agentMenu__item--person {
-  transform: translateY(-100%) translateX(1%) rotateY(-35.75deg) rotateZ(25deg) rotateX(330deg);
+  transform: translate(1%, -100%) rotateX(54.75deg) rotateY(0deg) rotateZ(-315deg) scaleX(1);
   background: #f8b8de;
-  border-top: 3px solid #f8dece;
+  border-top: 3px solid #f8dede;
   border-right: 3px solid #c780be;
+  transition-delay: 150ms;
+}
+
+.isAgentMenu .agentMenu__item--person {
+  transform: translate(1%, -100%) rotateY(-35.75deg) rotateZ(25deg) rotateX(330deg) scaleY(1);
 }
 
 .agentMenu__item--organization {
-  transform: translateX(-79%) translateY(-66%) rotateY(35.75deg) rotateZ(-25deg) rotateX(330deg);
+  transform: translate(-79%, -66%) rotateX(54.75deg) rotateY(0deg) rotateZ(315deg) scaleY(1);
   background: #c6c1c1;
   border-top: 3px solid #ddef;
   border-left: 3px solid #988f;
+  transition-delay: 50ms;
+}
+
+.isAgentMenu .agentMenu__item--organization {
+  transform: translate(-79%, -66%) rotateY(35.75deg) rotateZ(-25deg) rotateX(330deg) scaleY(1);
 }
 
 .agentMenu__item--place {
-  transform: translate(-50.5%, -47%) rotateX(54.75deg) rotateY(0deg) rotateZ(315deg);
+  transform: translate(-50.5%, -47%) rotateY(35.75deg) rotateZ(-25deg) rotateX(330deg) scaleY(1);
   background: #aaddaa;
   border-left: 3px solid #73a973;
   border-bottom: 3px solid #638863;
+  transition-delay: 100ms;
+}
+
+.isAgentMenu .agentMenu__item--place {
+  transform: translate(-50.5%, -47%) rotateX(54.75deg) rotateY(0deg) rotateZ(315deg) scaleY(1);
 }
 
 .agentMenu__item--other {
-  transform: translateY(100%) translateX(-50%);
+  transform: translate(-50%, 100%);
   color: #c6c1c1;
   font-size: 16px;
 }
@@ -150,7 +177,7 @@ body::before {
 
 .agent--person .agent__label {
   background: #f8b8de;
-  border-top: 3px solid #f8dece;
+  border-top: 3px solid #f8dede;
   border-right: 3px solid #c780be;
 }
 
@@ -201,7 +228,7 @@ body::before {
   position: absolute;
   padding: 2px 8px 3px;
   line-height: 1;
-  background: black;
+  background: #0019;
   color: white;
   font-size: 12px;
   border-radius: 5px;
