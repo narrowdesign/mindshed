@@ -226,12 +226,12 @@ body::before {
 
 .relationship__label {
   position: absolute;
-  padding: 2px 8px 3px;
+  padding: 1px 4px 1px;
   line-height: 1;
-  background: #0019;
+  background: #001a;
   color: white;
-  font-size: 12px;
-  border-radius: 5px;
+  font-size: 10px;
+  border-radius: 3px;
   text-align: center;
   white-space: nowrap;
 }
@@ -257,4 +257,16 @@ body::before {
 
 .isSpaceKey {
   cursor: grab;
+}
+
+.shedsSelect {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid;
+  background: #000;
+  color: #ffa07a;
 }

@@ -10,7 +10,6 @@ window.addEventListener('keydown', handleKeyDown)
 window.addEventListener('keyup', handleKeyUp)
 window.addEventListener('keypress', handleKeyPress)
 
-
 agentMenuItemListEls.forEach((item) => {
   item.addEventListener('mouseup', handleMouseUpAgentMenuItem);
 })
@@ -241,7 +240,7 @@ function handleMouseDown(e) {
     if (canvasState.isMouseDown && !canvasState.isCanvasDragging && !canvasState.isSelecting && !canvasState.isAgentDragging) {
       showAgentMenu(e);
     }
-  }, 300)
+  }, 200)
 }
 
 function handleMouseMove(e) {
@@ -585,6 +584,7 @@ function saveState() {
   canvasState.relationshipList.forEach((rel, i) => {
     rel[4] = rel[3].innerText;
   });
+  
   const state = JSON.parse(JSON.stringify(canvasState));
   // structuredClone(canvasState)
   mementos.push(state);
@@ -595,11 +595,21 @@ function saveState() {
 
 function applyState(state) {
   clearCanvas();
-  canvasState = state;
+  canvasState = JSON.parse(JSON.stringify(state));
   canvasState.agentList.forEach((agent, i) => {
     createAgent(agent.type, agent.label, agent.x, agent.y, agent.scale, agent.uuid, i);
   })
-
+  canvasState.x = 0;
+  canvasState.y = 0;
+  canvasState.centerX = window.innerWidth / 2;
+  canvasState.centerY = window.innerHeight / 2;
+  canvasState.mouseX = window.innerWidth / 2;
+  canvasState.mouseY = window.innerHeight / 2;
+  canvasState.mouseDownX = window.innerWidth / 2;
+  canvasState.mouseDownY = window.innerHeight / 2;
+  canvasState.mouseMoveX = 0;
+  canvasState.mouseMoveY = 0;
+  
   canvasState.relationshipList.forEach((rel, i) => {
     canvasState.agentList.forEach((agent) => {
       if (agent.uuid === rel[1].uuid) {
@@ -628,7 +638,7 @@ function clearCanvas() {
       if (i === 0) {
         el[0].remove();
         el[1].remove();
-      } else {
+      } else if (i < 4) {
         el.remove()
       }
     })
@@ -636,3 +646,14 @@ function clearCanvas() {
   
   canvasState = null;
 }
+
+document.querySelector('.shedsSelect').addEventListener('change', (e) => {
+  const destroy = confirm('you sure? this will destroy the current shed.');
+  if (!destroy) return;
+  sheds.forEach((shed) => {
+    if (shed.name === e.target.value) {
+      console.log(shed)
+      applyState(shed);
+    }
+  })
+})
