@@ -6462,5 +6462,1001 @@ const sheds = [
         "isMetaKey": true,
         "isSpaceKey": false,
         "isShiftKey": false
+    },
+    {
+        "name": "computerLib",
+        "currentType": "concept",
+        "x": -67,
+        "y": 130,
+        "centerX": 924.5,
+        "centerY": 207,
+        "isMouseDown": false,
+        "isAgentDragging": false,
+        "isCanvasDragging": false,
+        "isAltKey": true,
+        "isSelecting": false,
+        "mouseX": 1223,
+        "mouseY": 740,
+        "mouseMoveX": -40,
+        "mouseMoveY": 33,
+        "mouseDownX": 1378,
+        "mouseDownY": 362,
+        "startAgent": null,
+        "endAgent": null,
+        "activeAgent": null,
+        "agentList": [
+            {
+                "uuid": "8bfb8c43-4999-49c1-b1bf-3a2e64f88512",
+                "scale": 1.9419728276878614,
+                "x": 811,
+                "y": 329,
+                "type": "book",
+                "label": "Computer Lib",
+                "isSelected": false
+            },
+            {
+                "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                "scale": 2.031862823963165,
+                "x": 951,
+                "y": 516,
+                "type": "person",
+                "label": "Ted Nelson",
+                "isSelected": false
+            },
+            {
+                "uuid": "11247b71-f09e-4ba5-bc87-eccb0de3c01a",
+                "scale": 1,
+                "x": 1207,
+                "y": 484,
+                "type": "concept",
+                "label": "Xanadu",
+                "isSelected": false
+            },
+            {
+                "uuid": "6f4f4f3c-d6ed-461f-9280-16686897800b",
+                "scale": 1,
+                "x": 1233,
+                "y": 430,
+                "type": "concept",
+                "label": "hypertext",
+                "isSelected": false
+            },
+            {
+                "uuid": "30bd4011-b9ba-4b38-a93b-fdabbfc199cf",
+                "scale": 0.6950806432962415,
+                "x": 1064,
+                "y": 543,
+                "type": "concept",
+                "label": "New Freedoms Through Computer Screens",
+                "isSelected": false
+            },
+            {
+                "uuid": "d8c0f483-b5d6-4e6a-9c6d-e37b1b57bbbe",
+                "scale": 1.00931605964899,
+                "x": 722.1722518010641,
+                "y": 371.7011416602827,
+                "type": "concept",
+                "label": "a Minority Report",
+                "isSelected": false
+            },
+            {
+                "uuid": "585965da-ea7b-477c-9839-fd27b5529876",
+                "scale": 2.029059429764748,
+                "x": 829,
+                "y": 386,
+                "type": "book",
+                "label": "Dream Machines",
+                "isSelected": false
+            },
+            {
+                "uuid": "9abd0f4f-06a4-46f2-b93e-8372c373cf99",
+                "scale": 0.5,
+                "x": 1032,
+                "y": 467,
+                "type": "concept",
+                "label": "You can + must understand computers now",
+                "isSelected": false
+            },
+            {
+                "uuid": "1feb455e-239f-41e2-8f45-c31a653eedd0",
+                "scale": 0.5,
+                "x": 1172,
+                "y": 738,
+                "type": "place",
+                "label": "Houseboat",
+                "isSelected": false
+            },
+            {
+                "uuid": "608dbfe1-b596-42a7-9d83-e1822fea30ea",
+                "scale": 1.6452339339256286,
+                "x": 1003,
+                "y": 257,
+                "type": "concept",
+                "label": "computers",
+                "isSelected": false
+            },
+            {
+                "uuid": "54e65716-e142-4e86-8c66-94e66a7a1e13",
+                "scale": 1,
+                "x": 1059,
+                "y": 326,
+                "type": "concept",
+                "label": "changeable devices",
+                "isSelected": false
+            },
+            {
+                "uuid": "5c6e8028-c0cf-4e1d-ad2d-5411b486a802",
+                "scale": 0.8215913778543472,
+                "x": 994,
+                "y": 358,
+                "type": "concept",
+                "label": "symbols",
+                "isSelected": false
+            },
+            {
+                "uuid": "c098d86d-3753-469f-ab19-18ec90aa58ed",
+                "scale": 0.5,
+                "x": 980,
+                "y": 211,
+                "type": "concept",
+                "label": "projective system",
+                "isSelected": false
+            },
+            {
+                "uuid": "2ce1f565-7761-459e-8e66-a05ca57cd78a",
+                "scale": 0.5,
+                "x": 547,
+                "y": 257,
+                "type": "concept",
+                "label": "unifying vision",
+                "isSelected": false
+            },
+            {
+                "uuid": "8ddab83f-e277-468b-a705-26d900be3c9e",
+                "scale": 0.9351741310954094,
+                "x": 663,
+                "y": 114,
+                "type": "concept",
+                "label": "technology",
+                "isSelected": false
+            },
+            {
+                "uuid": "7b79544b-418a-4bfa-9e7f-0d2e447eb1c0",
+                "scale": 0.5,
+                "x": 794,
+                "y": 435,
+                "type": "concept",
+                "label": "revealed truth, not his own",
+                "isSelected": false
+            },
+            {
+                "uuid": "e0d814c1-0f20-4850-8c31-0fdea2de6be9",
+                "scale": 1,
+                "x": 737,
+                "y": 603,
+                "type": "concept",
+                "label": "school = bad",
+                "isSelected": false
+            },
+            {
+                "uuid": "d1dedfd5-cff8-46c1-90bd-8833261b6b2a",
+                "scale": 0.5,
+                "x": 1073,
+                "y": 589,
+                "type": "concept",
+                "label": "gemini",
+                "isSelected": false
+            },
+            {
+                "uuid": "84fa8714-e73c-42f5-bde8-8431ab81ac37",
+                "scale": 0.6736963827535508,
+                "x": 670.4309135488126,
+                "y": 150.1086595113536,
+                "type": "concept",
+                "label": "an outgrowh of our senses",
+                "isSelected": false
+            },
+            {
+                "uuid": "96fccb68-913c-4bca-ad16-be86ef68c4fa",
+                "scale": 0.5,
+                "x": 962,
+                "y": 647,
+                "type": "book",
+                "label": "anything and everything",
+                "isSelected": false
+            },
+            {
+                "uuid": "43dbf715-d1a8-4bb7-ae11-22566e0a360a",
+                "scale": 0.66841721534729,
+                "x": 1149,
+                "y": 652,
+                "type": "place",
+                "label": "woodstock",
+                "isSelected": false
+            },
+            {
+                "uuid": "07a6b74b-ee20-4310-a1fa-34d06ecc0044",
+                "scale": 0.5,
+                "x": 905,
+                "y": 634,
+                "type": "concept",
+                "label": "rock opera",
+                "isSelected": false
+            },
+            {
+                "uuid": "3e08585a-a55c-48d2-8411-dd43a81a624f",
+                "scale": 1,
+                "x": 839,
+                "y": 623,
+                "type": "organization",
+                "label": "swarthmore",
+                "isSelected": false
+            },
+            {
+                "uuid": "bb6a9542-0e20-4655-b95e-d9c5a831bfde",
+                "scale": 0.5,
+                "x": 837,
+                "y": 488,
+                "type": "concept",
+                "label": "media nut",
+                "isSelected": false
+            },
+            {
+                "uuid": "b8a42954-bab8-4a2c-bb2a-8a5f370fe39b",
+                "scale": 0.5,
+                "x": 831,
+                "y": 501,
+                "type": "concept",
+                "label": "photographer",
+                "isSelected": false
+            },
+            {
+                "uuid": "5aa042a3-b84e-45aa-a705-82065a809466",
+                "scale": 0.5,
+                "x": 832,
+                "y": 519,
+                "type": "concept",
+                "label": "compulsive explainer",
+                "isSelected": false
+            },
+            {
+                "uuid": "03523bfc-ad24-43f0-b4ec-cbf7e8e3f72b",
+                "scale": 1,
+                "x": 750,
+                "y": -112,
+                "type": "concept",
+                "label": "radio",
+                "isSelected": false
+            },
+            {
+                "uuid": "f8bd22aa-b0de-49fc-8b66-cc2b8f8a55ac",
+                "scale": 0.5,
+                "x": 749,
+                "y": -75,
+                "type": "concept",
+                "label": "time slot",
+                "isSelected": false
+            },
+            {
+                "uuid": "64e663ec-0cd3-40f4-ba8e-eac66cd541cf",
+                "scale": 0.5,
+                "x": 746,
+                "y": -93,
+                "type": "concept",
+                "label": "program",
+                "isSelected": false
+            },
+            {
+                "uuid": "4113c52a-1d2e-459b-abc1-44f1fad03a80",
+                "scale": 1.3371826763451102,
+                "x": 560,
+                "y": 481,
+                "type": "concept",
+                "label": "media",
+                "isSelected": false
+            },
+            {
+                "uuid": "9f4b37ae-42d7-49b9-8caf-1fe40ac78385",
+                "scale": 0.5,
+                "x": 1221,
+                "y": 456,
+                "type": "concept",
+                "label": "software",
+                "isSelected": false
+            },
+            {
+                "uuid": "212d2da6-13e2-43d2-b1ec-c39a698f12ac",
+                "scale": 1,
+                "x": 845,
+                "y": 172,
+                "type": "concept",
+                "label": "write",
+                "isSelected": false
+            },
+            {
+                "uuid": "c1c0cb52-da2a-43b0-bed8-d9cd715b7e57",
+                "scale": 1,
+                "x": 852,
+                "y": 146,
+                "type": "concept",
+                "label": "think",
+                "isSelected": false
+            },
+            {
+                "uuid": "4949f66b-2e28-488a-b590-aacde5764baf",
+                "scale": 1,
+                "x": 858,
+                "y": 119,
+                "type": "concept",
+                "label": "show",
+                "isSelected": false
+            },
+            {
+                "uuid": "501a7c87-2284-40b4-8f72-3374606152dc",
+                "scale": 0.5,
+                "x": 611,
+                "y": 629,
+                "type": "person",
+                "label": "bertrand russel",
+                "isSelected": false
+            },
+            {
+                "uuid": "24f6652c-aac0-4574-859b-123517f8d8d8",
+                "scale": 1.2064429789781574,
+                "x": 670,
+                "y": 729,
+                "type": "concept",
+                "label": "emotions",
+                "isSelected": false
+            },
+            {
+                "uuid": "265eb621-2068-4eaf-860c-e7e1aa0962fc",
+                "scale": 0.5,
+                "x": 614,
+                "y": 667,
+                "type": "concept",
+                "label": "reason",
+                "isSelected": false
+            },
+            {
+                "uuid": "1254ed86-3a47-4b0e-a947-c22e158fa700",
+                "scale": 0.5874964356422423,
+                "x": 863,
+                "y": 744,
+                "type": "concept",
+                "label": "wholiness",
+                "isSelected": false
+            },
+            {
+                "uuid": "112f42fb-dc8e-474b-91a7-bd4fca147690",
+                "scale": 1.4084076690673828,
+                "x": 1059,
+                "y": 855,
+                "type": "concept",
+                "label": "design",
+                "isSelected": false
+            },
+            {
+                "uuid": "8e3b9570-8e53-4dba-825b-5872b77ed48b",
+                "scale": 0.5,
+                "x": 943,
+                "y": 789,
+                "type": "concept",
+                "label": "human spirit",
+                "isSelected": false
+            },
+            {
+                "uuid": "2ebaf81c-bd27-419c-965f-b3571ba73b52",
+                "scale": 1,
+                "x": 765,
+                "y": 836,
+                "type": "person",
+                "label": "Plato",
+                "isSelected": false
+            },
+            {
+                "uuid": "746a3125-47c3-4ead-adca-22d08848e596",
+                "scale": 1,
+                "x": 1077,
+                "y": 122,
+                "type": "concept",
+                "label": "video",
+                "isSelected": false
+            },
+            {
+                "uuid": "124b1e84-50cf-469d-bd54-e6e465bf1880",
+                "scale": 1,
+                "x": 943,
+                "y": 0,
+                "type": "concept",
+                "label": "cathode-ray tube",
+                "isSelected": false
+            },
+            {
+                "uuid": "d12ec875-604e-4839-8d99-786f8739bcb8",
+                "scale": 1,
+                "x": 1133,
+                "y": 51,
+                "type": "concept",
+                "label": "ai",
+                "isSelected": false
+            },
+            {
+                "uuid": "33be9232-dd27-47dc-a597-1e6a1ef1d292",
+                "scale": 1,
+                "x": 1158,
+                "y": 152,
+                "type": "concept",
+                "label": "3d",
+                "isSelected": false
+            },
+            {
+                "uuid": "d9d616eb-454b-449c-a15d-de5e16f745e8",
+                "scale": 1,
+                "x": 1033,
+                "y": 145,
+                "type": "concept",
+                "label": "halftone images",
+                "isSelected": false
+            },
+            {
+                "uuid": "b5ad880b-09d6-41ae-a592-e6ce2051b69a",
+                "scale": 0.5,
+                "x": 1185,
+                "y": 198,
+                "type": "concept",
+                "label": "polygon systems",
+                "isSelected": false
+            },
+            {
+                "uuid": "c416c965-cb97-4552-95e8-29b52c02986b",
+                "scale": 0.5,
+                "x": 1209,
+                "y": 190,
+                "type": "concept",
+                "label": "n dimensions",
+                "isSelected": false
+            },
+            {
+                "uuid": "e299224d-c0e6-4f8f-a494-a12ae935d693",
+                "scale": 1,
+                "x": 1090,
+                "y": 104,
+                "type": "concept",
+                "label": "displays",
+                "isSelected": false
+            },
+            {
+                "uuid": "0b121efd-11c2-4639-aeee-779c56b398db",
+                "scale": 1.2814510068297384,
+                "x": 544,
+                "y": 365,
+                "type": "concept",
+                "label": "how to learn anything",
+                "isSelected": false
+            },
+            {
+                "uuid": "4e28a949-d692-4221-ad40-d552866fa66c",
+                "scale": 1,
+                "x": 1257,
+                "y": 415,
+                "type": "concept",
+                "label": "hypermedia",
+                "isSelected": false
+            },
+            {
+                "uuid": "45527e06-8c39-4249-a403-901cf67ded35",
+                "scale": 1,
+                "x": 1216,
+                "y": 337,
+                "type": "person",
+                "label": "engelbart",
+                "isSelected": false
+            },
+            {
+                "uuid": "a2aa4cd7-c1d9-4c70-9efa-ca8420bc8ac8",
+                "scale": 1,
+                "x": 1185,
+                "y": 292,
+                "type": "concept",
+                "label": "hardware",
+                "isSelected": false
+            },
+            {
+                "uuid": "cf3ff944-d738-47fa-be1a-b5f56ce281b9",
+                "scale": 1,
+                "x": 636,
+                "y": 287,
+                "type": "concept",
+                "label": "fantics",
+                "isSelected": false
+            },
+            {
+                "uuid": "d9ba589d-4bd0-4fba-865d-d8190dfad6c8",
+                "scale": 1,
+                "x": 1327,
+                "y": 225,
+                "type": "concept",
+                "label": "thinkertoys",
+                "isSelected": false
+            },
+            {
+                "uuid": "c6db290e-b5ef-44fd-b206-5cda09609151",
+                "scale": 0.5,
+                "x": 628,
+                "y": 152,
+                "type": "concept",
+                "label": "humans",
+                "isSelected": false
+            },
+            {
+                "uuid": "3e5e8130-e3cd-40ea-a8f9-90c91783f027",
+                "scale": 0.5,
+                "x": 691,
+                "y": 187,
+                "type": "concept",
+                "label": "machines",
+                "isSelected": false
+            },
+            {
+                "uuid": "08b8185b-57c4-4016-b290-67082bf6ed48",
+                "scale": 1,
+                "x": 1210,
+                "y": 41,
+                "type": "person",
+                "label": "ivan sutherland",
+                "isSelected": false
+            },
+            {
+                "uuid": "9079c30f-240a-4232-856b-f4ca5cce9d26",
+                "scale": 1,
+                "x": 838,
+                "y": 26,
+                "type": "person",
+                "label": "walt disney",
+                "isSelected": false
+            },
+            {
+                "uuid": "7726aca5-3035-47be-a2d5-055013669d27",
+                "scale": 1,
+                "x": 1226,
+                "y": 122,
+                "type": "concept",
+                "label": "gui",
+                "isSelected": false
+            },
+            {
+                "uuid": "b1527df4-3cc2-4921-a56a-ef7c88665b25",
+                "scale": 1,
+                "x": 747,
+                "y": 531,
+                "type": "book",
+                "label": "Oz",
+                "isSelected": false
+            },
+            {
+                "uuid": "8e319e90-da3c-4ed5-abd3-1be1a8d363c3",
+                "scale": 1,
+                "x": 1122,
+                "y": 76,
+                "type": "concept",
+                "label": "vector displays",
+                "isSelected": false
+            },
+            {
+                "uuid": "bd2cf69a-e248-4989-ae3c-fb4ff00124a1",
+                "scale": 1,
+                "x": 1280,
+                "y": 254,
+                "type": "concept",
+                "label": "bitmaps",
+                "isSelected": false
+            },
+            {
+                "uuid": "554bfe92-1154-4e57-82c8-5da05dcdab2a",
+                "scale": 1,
+                "x": 998,
+                "y": -88,
+                "type": "concept",
+                "label": "movies",
+                "isSelected": false
+            }
+        ],
+        "relationshipList": [
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "54e65716-e142-4e86-8c66-94e66a7a1e13",
+                    "scale": 1,
+                    "x": 1059,
+                    "y": 326,
+                    "type": "concept",
+                    "label": "changeable devices",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "5c6e8028-c0cf-4e1d-ad2d-5411b486a802",
+                    "scale": 0.8215913778543472,
+                    "x": 994,
+                    "y": 358,
+                    "type": "concept",
+                    "label": "symbols",
+                    "isSelected": false
+                },
+                {},
+                "for twiddling"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "8bfb8c43-4999-49c1-b1bf-3a2e64f88512",
+                    "scale": 1.9419728276878614,
+                    "x": 811,
+                    "y": 329,
+                    "type": "book",
+                    "label": "Computer Lib",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "608dbfe1-b596-42a7-9d83-e1822fea30ea",
+                    "scale": 1.6452339339256286,
+                    "x": 1003,
+                    "y": 257,
+                    "type": "concept",
+                    "label": "computers",
+                    "isSelected": false
+                },
+                {},
+                "is about"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "8ddab83f-e277-468b-a705-26d900be3c9e",
+                    "scale": 0.9351741310954094,
+                    "x": 663,
+                    "y": 114,
+                    "type": "concept",
+                    "label": "technology",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "84fa8714-e73c-42f5-bde8-8431ab81ac37",
+                    "scale": 0.6736963827535508,
+                    "x": 670.4309135488126,
+                    "y": 150.1086595113536,
+                    "type": "concept",
+                    "label": "an outgrowh of our senses",
+                    "isSelected": false
+                },
+                {},
+                ">"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "43dbf715-d1a8-4bb7-ae11-22566e0a360a",
+                    "scale": 0.66841721534729,
+                    "x": 1149,
+                    "y": 652,
+                    "type": "place",
+                    "label": "woodstock",
+                    "isSelected": false
+                },
+                {},
+                "attended"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "96fccb68-913c-4bca-ad16-be86ef68c4fa",
+                    "scale": 0.5,
+                    "x": 962,
+                    "y": 647,
+                    "type": "book",
+                    "label": "anything and everything",
+                    "isSelected": false
+                },
+                {},
+                "wrote"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "3e08585a-a55c-48d2-8411-dd43a81a624f",
+                    "scale": 1,
+                    "x": 839,
+                    "y": 623,
+                    "type": "organization",
+                    "label": "swarthmore",
+                    "isSelected": false
+                },
+                {},
+                "attended"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "5aa042a3-b84e-45aa-a705-82065a809466",
+                    "scale": 0.5,
+                    "x": 832,
+                    "y": 519,
+                    "type": "concept",
+                    "label": "compulsive explainer",
+                    "isSelected": false
+                },
+                {},
+                "self described"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "6f4f4f3c-d6ed-461f-9280-16686897800b",
+                    "scale": 1,
+                    "x": 1233,
+                    "y": 430,
+                    "type": "concept",
+                    "label": "hypertext",
+                    "isSelected": false
+                },
+                {},
+                "invented"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "344a19f0-95d5-4c26-81a5-7e6f9dacb188",
+                    "scale": 2.031862823963165,
+                    "x": 951,
+                    "y": 516,
+                    "type": "person",
+                    "label": "Ted Nelson",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "11247b71-f09e-4ba5-bc87-eccb0de3c01a",
+                    "scale": 1,
+                    "x": 1207,
+                    "y": 484,
+                    "type": "concept",
+                    "label": "Xanadu",
+                    "isSelected": false
+                },
+                {},
+                "created"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "608dbfe1-b596-42a7-9d83-e1822fea30ea",
+                    "scale": 1.6452339339256286,
+                    "x": 1003,
+                    "y": 257,
+                    "type": "concept",
+                    "label": "computers",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "c1c0cb52-da2a-43b0-bed8-d9cd715b7e57",
+                    "scale": 1,
+                    "x": 852,
+                    "y": 146,
+                    "type": "concept",
+                    "label": "think",
+                    "isSelected": false
+                },
+                {},
+                "help people"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "265eb621-2068-4eaf-860c-e7e1aa0962fc",
+                    "scale": 0.5,
+                    "x": 614,
+                    "y": 667,
+                    "type": "concept",
+                    "label": "reason",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "24f6652c-aac0-4574-859b-123517f8d8d8",
+                    "scale": 1.2064429789781574,
+                    "x": 670,
+                    "y": 729,
+                    "type": "concept",
+                    "label": "emotions",
+                    "isSelected": false
+                },
+                {},
+                "is slave to"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "501a7c87-2284-40b4-8f72-3374606152dc",
+                    "scale": 0.5,
+                    "x": 611,
+                    "y": 629,
+                    "type": "person",
+                    "label": "bertrand russel",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "265eb621-2068-4eaf-860c-e7e1aa0962fc",
+                    "scale": 0.5,
+                    "x": 614,
+                    "y": 667,
+                    "type": "concept",
+                    "label": "reason",
+                    "isSelected": false
+                },
+                {},
+                "said"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "1254ed86-3a47-4b0e-a947-c22e158fa700",
+                    "scale": 0.5874964356422423,
+                    "x": 863,
+                    "y": 744,
+                    "type": "concept",
+                    "label": "wholiness",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "8e3b9570-8e53-4dba-825b-5872b77ed48b",
+                    "scale": 0.5,
+                    "x": 943,
+                    "y": 789,
+                    "type": "concept",
+                    "label": "human spirit",
+                    "isSelected": false
+                },
+                {},
+                "of"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "8e3b9570-8e53-4dba-825b-5872b77ed48b",
+                    "scale": 0.5,
+                    "x": 943,
+                    "y": 789,
+                    "type": "concept",
+                    "label": "human spirit",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "112f42fb-dc8e-474b-91a7-bd4fca147690",
+                    "scale": 1.4084076690673828,
+                    "x": 1059,
+                    "y": 855,
+                    "type": "concept",
+                    "label": "design",
+                    "isSelected": false
+                },
+                {},
+                "we must"
+            ],
+            [
+                [
+                    {},
+                    {}
+                ],
+                {
+                    "uuid": "c6db290e-b5ef-44fd-b206-5cda09609151",
+                    "scale": 0.5,
+                    "x": 628,
+                    "y": 152,
+                    "type": "concept",
+                    "label": "humans",
+                    "isSelected": false
+                },
+                {
+                    "uuid": "3e5e8130-e3cd-40ea-a8f9-90c91783f027",
+                    "scale": 0.5,
+                    "x": 691,
+                    "y": 187,
+                    "type": "concept",
+                    "label": "machines",
+                    "isSelected": false
+                },
+                {},
+                "+"
+            ]
+        ],
+        "selectedList": [],
+        "isMetaKey": true,
+        "isShiftKey": false,
+        "isSpaceKey": false
     }
 ]
