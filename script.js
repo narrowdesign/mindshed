@@ -1,3 +1,8 @@
+// FEATURES
+
+// appears in X sheds
+// group selection into class or list
+
 const agentMenuEl = document.querySelector('.agentMenu');
 const agentMenuItemListEls = document.querySelectorAll('.agentMenu__item');
 const selectionBoxEl = document.querySelector('.selectionBox');
@@ -609,6 +614,9 @@ function applyState(state) {
   canvasState.mouseDownY = window.innerHeight / 2;
   canvasState.mouseMoveX = 0;
   canvasState.mouseMoveY = 0;
+  canvasState.startAgent = null;
+  canvasState.endAgent = null;
+  canvasState.isAgentDragging = false;
   
   canvasState.relationshipList.forEach((rel, i) => {
     canvasState.agentList.forEach((agent) => {
