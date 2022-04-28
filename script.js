@@ -96,7 +96,11 @@ function handleKeyUp(e) {
       }
       clearSelectedList()
       createAgent(canvasState.currentType);
-      break;   
+      break;
+    case 'ArrowLeft':
+      if (!canvasState.activeAgent) return;
+      canvasState.activeAgent.x -= 1;
+      canvasState.activeAgent.style.transform = `translate(${canvasState.activeAgent.x}px, ${canvasState.activeAgent.y}px)`;      
     default:
       break;
   }
@@ -186,30 +190,12 @@ function handleKeyDown(e) {
 
 function handleClickAgent(e) {
   e.stopPropagation();
-  const matchIndex = canvasState.selectedList.indexOf(e.currentTarget);
-  if (matchIndex === -1) {
-    if (!e.metaKey && !e.shiftKey) {
-      clearSelectedList();
-    }
-    canvasState.selectedList.push(e.currentTarget);
-  } else if (!canvasState.isAgentDragging) {
-    canvasState.selectedList[matchIndex].classList.remove('isSelected');
-    canvasState.selectedList.splice(matchIndex, 1);
-  }
-
-  canvasState.selectedList.forEach((item) => {
-    if (canvasState.selectedList.length > 1) {
-      document.activeElement.blur();
-    }
-    item.classList.add('isSelected');
-    item.isSelected = true;
-  })
-  canvasState.isAgentDragging = false;
 }
 
 function handleMouseDownAgent(e) {
   canvasState.startAgent = e.currentTarget;
   canvasState.activeAgent = e.currentTarget;
+  selectAgent(e);
   e.stopPropagation();
 
   if (e.altKey) {
@@ -229,7 +215,7 @@ function handleMouseUpAgent(e) {
     e.stopPropagation();
   }
   setDefaultCanvasState();
-  canvasState.activeAgent = e.currentTarget;
+  // canvasState.activeAgent = e.currentTarget;
 }
 
 function handleMouseDown(e) {
@@ -252,7 +238,7 @@ function handleMouseMove(e) {
   canvasState.mouseMoveX = e.clientX - canvasState.mouseX;
   canvasState.mouseMoveY = e.clientY - canvasState.mouseY;
   
-  if (canvasState.startAgent && !e.altKey) {
+  if (canvasState.activeAgent && !e.altKey) {
     dragSelected();
   }
 
@@ -279,6 +265,26 @@ function handleMouseMove(e) {
 
 function handleMouseUp() {
   setDefaultCanvasState()
+}
+
+function selectAgent(e) {
+  const matchIndex = canvasState.selectedList.indexOf(e.currentTarget);
+  if (matchIndex === -1) {
+    if (!e.metaKey && !e.shiftKey) {
+      clearSelectedList();
+    }
+    canvasState.selectedList.push(e.currentTarget);
+    e.currentTarget.classList.add('isSelected');
+  }
+
+  canvasState.selectedList.forEach((item) => {
+    if (canvasState.selectedList.length > 1) {
+      document.activeElement.blur();
+    }
+    item.classList.add('isSelected');
+    item.isSelected = true;
+  })
+  canvasState.isAgentDragging = false;
 }
 
 function setDefaultCanvasState() {
@@ -485,9 +491,9 @@ function getRotation(type) {
 
 function scaleAgent(delta, agent, label) {
   agent.scale -= delta;
-  agent.scale = Math.max(0.6, agent.scale);
+  agent.scale = Math.max(0.5, agent.scale);
   const rotation = getRotation(agent.type);
-  label.style.transform = `scale(${Math.round(agent.scale * 4) / 4}) ${rotation}`;
+  label.style.transform = `scale(${Math.round(agent.scale * 5) / 5}) ${rotation}`;
 }
 
 function connectAgents(index, text = '>') {

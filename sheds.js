@@ -95,7 +95,7 @@ const sheds = [
             },
             {
                 "uuid": "12d7ba79-930f-44e7-a4e4-6b2597796011",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 821,
                 "y": 505,
                 "type": "person",
@@ -113,7 +113,7 @@ const sheds = [
             },
             {
                 "uuid": "57b521bb-d790-43c6-8a34-f6a7b8542848",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1074,
                 "y": 561,
                 "type": "person",
@@ -122,7 +122,7 @@ const sheds = [
             },
             {
                 "uuid": "9df9349a-6bbe-4e8b-bead-5c54e38fef7d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1063,
                 "y": 570,
                 "type": "person",
@@ -131,7 +131,7 @@ const sheds = [
             },
             {
                 "uuid": "7288facb-2ed6-4569-82c3-551849b8b44a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1349,
                 "y": 430,
                 "type": "person",
@@ -140,7 +140,7 @@ const sheds = [
             },
             {
                 "uuid": "a796b342-3489-445f-bacd-2637631d4c9b",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1378.6566301132693,
                 "y": 416.00198659485727,
                 "type": "person",
@@ -149,7 +149,7 @@ const sheds = [
             },
             {
                 "uuid": "46f7e43e-ce8a-4306-b58f-4bd9ded57af5",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1362,
                 "y": 422,
                 "type": "person",
@@ -158,7 +158,7 @@ const sheds = [
             },
             {
                 "uuid": "e72ba781-47b9-459f-9955-9d33110b9286",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1391.1897449895978,
                 "y": 407.050770049912,
                 "type": "person",
@@ -194,7 +194,7 @@ const sheds = [
             },
             {
                 "uuid": "d8b3a686-e0b5-497a-8733-49793afb497b",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 943,
                 "y": 592,
                 "type": "organization",
@@ -221,7 +221,7 @@ const sheds = [
             },
             {
                 "uuid": "89fc7b02-37be-4ad2-bdd7-4a60f3d6f2c7",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 896,
                 "y": 433,
                 "type": "person",
@@ -230,7 +230,7 @@ const sheds = [
             },
             {
                 "uuid": "b6fbc6ef-7a1a-4ea6-bb51-1812193207bd",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 883,
                 "y": 440,
                 "type": "person",
@@ -248,7 +248,7 @@ const sheds = [
             },
             {
                 "uuid": "4bc01846-9341-4c95-aba4-6a15a1a95710",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 821,
                 "y": 455,
                 "type": "organization",
@@ -275,7 +275,7 @@ const sheds = [
             },
             {
                 "uuid": "7663c06f-823e-47a1-a6c9-2d0c12e4f7c5",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1034,
                 "y": 266,
                 "type": "organization",
@@ -284,7 +284,7 @@ const sheds = [
             },
             {
                 "uuid": "772780e1-ecd7-4a9f-ab5e-e1ee17ef22cb",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 940,
                 "y": 632,
                 "type": "person",
@@ -311,7 +311,7 @@ const sheds = [
             },
             {
                 "uuid": "d3183c1d-2f41-4b4c-8443-77e838903376",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1046,
                 "y": 280,
                 "type": "organization",
@@ -338,7 +338,7 @@ const sheds = [
             },
             {
                 "uuid": "658711a8-cdcd-4ef3-ba52-6fdf64797627",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 824,
                 "y": 527,
                 "type": "person",
@@ -347,7 +347,7 @@ const sheds = [
             },
             {
                 "uuid": "1e09de85-59ed-49a5-a2aa-2a37f60c870d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 813.9788829817517,
                 "y": 533.0158399412868,
                 "type": "person",
@@ -356,7 +356,7 @@ const sheds = [
             },
             {
                 "uuid": "3b79337e-0d0a-4ae1-bce0-9ae355d9d0b4",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 804,
                 "y": 542,
                 "type": "person",
@@ -365,7 +365,7 @@ const sheds = [
             },
             {
                 "uuid": "83b52a8c-b01f-4627-82a4-16ba416b2d7b",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1353,
                 "y": 540,
                 "type": "person",
@@ -374,7 +374,7 @@ const sheds = [
             },
             {
                 "uuid": "d12324ea-e8d9-4f60-b767-1179bea717de",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1341,
                 "y": 546,
                 "type": "person",
@@ -455,7 +455,7 @@ const sheds = [
             },
             {
                 "uuid": "029e534f-76ff-41e9-b675-895064a6a951",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1193,
                 "y": 217,
                 "type": "concept",
@@ -464,7 +464,7 @@ const sheds = [
             },
             {
                 "uuid": "28e5c547-5826-4ec8-9cfe-a2efdc1233fa",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1245,
                 "y": 218,
                 "type": "concept",
@@ -482,7 +482,7 @@ const sheds = [
             },
             {
                 "uuid": "a7f10dc4-a6b0-4f4b-aa87-809178cac856",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1304,
                 "y": 224,
                 "type": "concept",
@@ -500,7 +500,7 @@ const sheds = [
             },
             {
                 "uuid": "50532b8e-cee6-4708-a042-6c5b79352109",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 970,
                 "y": 550,
                 "type": "person",
@@ -527,7 +527,7 @@ const sheds = [
             },
             {
                 "uuid": "f8a77679-e059-465e-a288-5e35b70f157c",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 639,
                 "y": 247,
                 "type": "person",
@@ -545,7 +545,7 @@ const sheds = [
             },
             {
                 "uuid": "1261e264-6d88-4f70-9bd9-16a1332403f0",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1010,
                 "y": 626,
                 "type": "person",
@@ -572,7 +572,7 @@ const sheds = [
             },
             {
                 "uuid": "c1e737d1-2846-4826-b232-602dd367bd95",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 638,
                 "y": 422,
                 "type": "organization",
@@ -581,7 +581,7 @@ const sheds = [
             },
             {
                 "uuid": "d4337b9c-b4e6-4039-bb91-5caf883dd4dd",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 645,
                 "y": 432,
                 "type": "organization",
@@ -771,7 +771,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d8b3a686-e0b5-497a-8733-49793afb497b",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 943,
                     "y": 592,
                     "type": "organization",
@@ -840,7 +840,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "89fc7b02-37be-4ad2-bdd7-4a60f3d6f2c7",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 896,
                     "y": 433,
                     "type": "person",
@@ -866,7 +866,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "12d7ba79-930f-44e7-a4e4-6b2597796011",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 821,
                     "y": 505,
                     "type": "person",
@@ -901,7 +901,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d8b3a686-e0b5-497a-8733-49793afb497b",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 943,
                     "y": 592,
                     "type": "organization",
@@ -979,7 +979,7 @@ const sheds = [
                 },
                 {
                     "uuid": "7663c06f-823e-47a1-a6c9-2d0c12e4f7c5",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1034,
                     "y": 266,
                     "type": "organization",
@@ -996,7 +996,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "12d7ba79-930f-44e7-a4e4-6b2597796011",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 821,
                     "y": 505,
                     "type": "person",
@@ -1005,7 +1005,7 @@ const sheds = [
                 },
                 {
                     "uuid": "b6fbc6ef-7a1a-4ea6-bb51-1812193207bd",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 883,
                     "y": 440,
                     "type": "person",
@@ -1022,7 +1022,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "772780e1-ecd7-4a9f-ab5e-e1ee17ef22cb",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 940,
                     "y": 632,
                     "type": "person",
@@ -1031,7 +1031,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d8b3a686-e0b5-497a-8733-49793afb497b",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 943,
                     "y": 592,
                     "type": "organization",
@@ -1048,7 +1048,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "772780e1-ecd7-4a9f-ab5e-e1ee17ef22cb",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 940,
                     "y": 632,
                     "type": "person",
@@ -1100,7 +1100,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "658711a8-cdcd-4ef3-ba52-6fdf64797627",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 824,
                     "y": 527,
                     "type": "person",
@@ -1178,7 +1178,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "7288facb-2ed6-4569-82c3-551849b8b44a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1349,
                     "y": 430,
                     "type": "person",
@@ -1239,7 +1239,7 @@ const sheds = [
                 },
                 {
                     "uuid": "029e534f-76ff-41e9-b675-895064a6a951",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1193,
                     "y": 217,
                     "type": "concept",
@@ -1256,7 +1256,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "d3183c1d-2f41-4b4c-8443-77e838903376",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1046,
                     "y": 280,
                     "type": "organization",
@@ -1291,7 +1291,7 @@ const sheds = [
                 },
                 {
                     "uuid": "28e5c547-5826-4ec8-9cfe-a2efdc1233fa",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1245,
                     "y": 218,
                     "type": "concept",
@@ -1317,7 +1317,7 @@ const sheds = [
                 },
                 {
                     "uuid": "a7f10dc4-a6b0-4f4b-aa87-809178cac856",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1304,
                     "y": 224,
                     "type": "concept",
@@ -1334,7 +1334,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "9df9349a-6bbe-4e8b-bead-5c54e38fef7d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1063,
                     "y": 570,
                     "type": "person",
@@ -1360,7 +1360,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "50532b8e-cee6-4708-a042-6c5b79352109",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 970,
                     "y": 550,
                     "type": "person",
@@ -1386,7 +1386,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "28e5c547-5826-4ec8-9cfe-a2efdc1233fa",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1245,
                     "y": 218,
                     "type": "concept",
@@ -1412,7 +1412,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "a7f10dc4-a6b0-4f4b-aa87-809178cac856",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1304,
                     "y": 224,
                     "type": "concept",
@@ -1516,7 +1516,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "f8a77679-e059-465e-a288-5e35b70f157c",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 639,
                     "y": 247,
                     "type": "person",
@@ -1577,7 +1577,7 @@ const sheds = [
                 },
                 {
                     "uuid": "83b52a8c-b01f-4627-82a4-16ba416b2d7b",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1353,
                     "y": 540,
                     "type": "person",
@@ -1620,7 +1620,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "9df9349a-6bbe-4e8b-bead-5c54e38fef7d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1063,
                     "y": 570,
                     "type": "person",
@@ -1646,7 +1646,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "1261e264-6d88-4f70-9bd9-16a1332403f0",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1010,
                     "y": 626,
                     "type": "person",
@@ -1655,7 +1655,7 @@ const sheds = [
                 },
                 {
                     "uuid": "9df9349a-6bbe-4e8b-bead-5c54e38fef7d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1063,
                     "y": 570,
                     "type": "person",
@@ -1672,7 +1672,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "1261e264-6d88-4f70-9bd9-16a1332403f0",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1010,
                     "y": 626,
                     "type": "person",
@@ -1698,7 +1698,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "50532b8e-cee6-4708-a042-6c5b79352109",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 970,
                     "y": 550,
                     "type": "person",
@@ -1707,7 +1707,7 @@ const sheds = [
                 },
                 {
                     "uuid": "9df9349a-6bbe-4e8b-bead-5c54e38fef7d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1063,
                     "y": 570,
                     "type": "person",
@@ -1759,7 +1759,7 @@ const sheds = [
                 },
                 {
                     "uuid": "c1e737d1-2846-4826-b232-602dd367bd95",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 638,
                     "y": 422,
                     "type": "organization",
@@ -1785,7 +1785,7 @@ const sheds = [
                 },
                 {
                     "uuid": "57b521bb-d790-43c6-8a34-f6a7b8542848",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1074,
                     "y": 561,
                     "type": "person",
@@ -1925,7 +1925,7 @@ const sheds = [
             },
             {
                 "uuid": "2c5d1831-b4fe-40f9-aee8-a66b3e39337c",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1443,
                 "y": 98,
                 "type": "book",
@@ -1952,7 +1952,7 @@ const sheds = [
             },
             {
                 "uuid": "b7284e3d-eeb0-47ed-a8f3-d60acdc05a31",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1621,
                 "y": 346,
                 "type": "book",
@@ -2087,7 +2087,7 @@ const sheds = [
             },
             {
                 "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1407,
                 "y": 756,
                 "type": "place",
@@ -2096,7 +2096,7 @@ const sheds = [
             },
             {
                 "uuid": "da6b5572-a3fa-4e4f-afe9-5fbcf524920b",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1563,
                 "y": 762,
                 "type": "person",
@@ -2539,7 +2539,7 @@ const sheds = [
                 },
                 {
                     "uuid": "2c5d1831-b4fe-40f9-aee8-a66b3e39337c",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1443,
                     "y": 98,
                     "type": "book",
@@ -2565,7 +2565,7 @@ const sheds = [
                 },
                 {
                     "uuid": "b7284e3d-eeb0-47ed-a8f3-d60acdc05a31",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1621,
                     "y": 346,
                     "type": "book",
@@ -3059,7 +3059,7 @@ const sheds = [
                 },
                 {
                     "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1407,
                     "y": 756,
                     "type": "place",
@@ -3076,7 +3076,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "da6b5572-a3fa-4e4f-afe9-5fbcf524920b",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1563,
                     "y": 762,
                     "type": "person",
@@ -3085,7 +3085,7 @@ const sheds = [
                 },
                 {
                     "uuid": "10a09dcf-510c-42c5-910d-8279ee106730",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1407,
                     "y": 756,
                     "type": "place",
@@ -4909,7 +4909,7 @@ const sheds = [
             },
             {
                 "uuid": "50f50690-4c77-4616-aa83-edab4cf75174",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1345.6370463416547,
                 "y": 487.2111314655259,
                 "type": "concept",
@@ -4936,7 +4936,7 @@ const sheds = [
             },
             {
                 "uuid": "7e1461c7-7468-4447-9891-e68c8b29a259",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 799,
                 "y": 459,
                 "type": "concept",
@@ -4945,7 +4945,7 @@ const sheds = [
             },
             {
                 "uuid": "2a959b28-a3d6-428a-b793-1ff91f6d4408",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 732,
                 "y": 454,
                 "type": "concept",
@@ -4972,7 +4972,7 @@ const sheds = [
             },
             {
                 "uuid": "46c1d63d-448e-4dc2-be9f-fe1bf8aabb36",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1161.1266920705898,
                 "y": -69.15183614715795,
                 "type": "concept",
@@ -4981,7 +4981,7 @@ const sheds = [
             },
             {
                 "uuid": "2e97b339-ea77-4569-a17d-c967e654a34a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1554,
                 "y": 371,
                 "type": "concept",
@@ -4990,7 +4990,7 @@ const sheds = [
             },
             {
                 "uuid": "f881e977-bf08-41ed-aa8d-2c98cd8c3186",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1550,
                 "y": 309,
                 "type": "concept",
@@ -4999,7 +4999,7 @@ const sheds = [
             },
             {
                 "uuid": "cc79fb8c-b745-42e7-b219-460ffc8cc844",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1552,
                 "y": 248,
                 "type": "concept",
@@ -5008,7 +5008,7 @@ const sheds = [
             },
             {
                 "uuid": "d8e1a714-0e18-4860-ab2c-189d4f016b12",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1654,
                 "y": 307,
                 "type": "concept",
@@ -5017,7 +5017,7 @@ const sheds = [
             },
             {
                 "uuid": "9055d788-3f36-418e-af3b-b493e48d9f04",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1597,
                 "y": 463,
                 "type": "concept",
@@ -5035,7 +5035,7 @@ const sheds = [
             },
             {
                 "uuid": "d061d8a5-881e-4346-af45-2dd03569b48d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1222,
                 "y": 130,
                 "type": "person",
@@ -5044,7 +5044,7 @@ const sheds = [
             },
             {
                 "uuid": "d4eda018-4bd8-4d8a-89aa-cf1a6bfd0f1d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 933,
                 "y": 238,
                 "type": "organization",
@@ -5062,7 +5062,7 @@ const sheds = [
             },
             {
                 "uuid": "69571019-844c-4877-ad89-e8d477128b56",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1417.2597381082057,
                 "y": 451.3166731444312,
                 "type": "concept",
@@ -5080,7 +5080,7 @@ const sheds = [
             },
             {
                 "uuid": "8cb9afe5-79c7-452e-a55e-047d32875b46",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 736,
                 "y": 702,
                 "type": "concept",
@@ -5089,7 +5089,7 @@ const sheds = [
             },
             {
                 "uuid": "5a436245-de4b-4678-89ac-8fbe66bb931a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 951,
                 "y": 364,
                 "type": "concept",
@@ -5098,7 +5098,7 @@ const sheds = [
             },
             {
                 "uuid": "56ccef8b-2e02-402f-8a4f-e57420fe629a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 837,
                 "y": 258,
                 "type": "concept",
@@ -5107,7 +5107,7 @@ const sheds = [
             },
             {
                 "uuid": "ebb9ed9c-b33a-4d7b-9646-cd434d1c1736",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 596.130949279783,
                 "y": 670.2084634525064,
                 "type": "concept",
@@ -5125,7 +5125,7 @@ const sheds = [
             },
             {
                 "uuid": "b15d478d-9d64-4684-b213-384f4180e9d6",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 599,
                 "y": 536,
                 "type": "person",
@@ -5134,7 +5134,7 @@ const sheds = [
             },
             {
                 "uuid": "916d8b1b-4e1a-4cb8-b9c0-c312bf061c5d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 458,
                 "y": 537,
                 "type": "concept",
@@ -5143,7 +5143,7 @@ const sheds = [
             },
             {
                 "uuid": "ab68c765-0a2b-45e4-9c48-ef1c6697bb34",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 503,
                 "y": 134,
                 "type": "person",
@@ -5152,7 +5152,7 @@ const sheds = [
             },
             {
                 "uuid": "2c0d8b31-9a2d-4822-827c-3ea30c60474d",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 506,
                 "y": 189,
                 "type": "organization",
@@ -5161,7 +5161,7 @@ const sheds = [
             },
             {
                 "uuid": "e98e7caa-779f-434f-83f1-d3cf471f45cc",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 693,
                 "y": 297,
                 "type": "concept",
@@ -5170,7 +5170,7 @@ const sheds = [
             },
             {
                 "uuid": "72ea73a3-5b79-4788-a55d-e69a0486b80a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 809.5561771550169,
                 "y": 361.8661810206088,
                 "type": "concept",
@@ -5179,7 +5179,7 @@ const sheds = [
             },
             {
                 "uuid": "b1920e82-0dfc-4614-b3ad-2001003a4494",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 710,
                 "y": 399,
                 "type": "concept",
@@ -5188,7 +5188,7 @@ const sheds = [
             },
             {
                 "uuid": "62c0b21c-4095-4025-91fd-ed5c01de932c",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 731,
                 "y": 386,
                 "type": "concept",
@@ -5197,7 +5197,7 @@ const sheds = [
             },
             {
                 "uuid": "8570f6db-67f4-4025-99bc-e1291fc93356",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 622.8578196901773,
                 "y": 301.8418748876102,
                 "type": "concept",
@@ -5215,7 +5215,7 @@ const sheds = [
             },
             {
                 "uuid": "468c5e76-a2cc-4234-9f71-3adbce828541",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1286,
                 "y": 233,
                 "type": "concept",
@@ -5224,7 +5224,7 @@ const sheds = [
             },
             {
                 "uuid": "f936d21a-6b1f-4996-9c41-d4e7977ca96a",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1118,
                 "y": 125,
                 "type": "organization",
@@ -5233,7 +5233,7 @@ const sheds = [
             },
             {
                 "uuid": "79d98c85-d5e7-42c6-8285-084018c78134",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1378,
                 "y": 204,
                 "type": "concept",
@@ -5242,7 +5242,7 @@ const sheds = [
             },
             {
                 "uuid": "05550dff-fe1f-40e1-b8fc-66a47ccd7ec7",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 688,
                 "y": 730,
                 "type": "person",
@@ -5251,7 +5251,7 @@ const sheds = [
             },
             {
                 "uuid": "d6b0edb4-f0b5-467e-a574-0d788429507e",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 460,
                 "y": 609,
                 "type": "concept",
@@ -5260,7 +5260,7 @@ const sheds = [
             },
             {
                 "uuid": "9864c3be-b089-45fe-bbe8-eb3601f43301",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 556,
                 "y": 305,
                 "type": "concept",
@@ -5269,7 +5269,7 @@ const sheds = [
             },
             {
                 "uuid": "5ba0cc73-5bf8-4401-984b-c87902574d69",
-                "scale": 0.6,
+                "scale": 0.5,
                 "x": 1142,
                 "y": 376,
                 "type": "book",
@@ -5329,7 +5329,7 @@ const sheds = [
                 },
                 {
                     "uuid": "50f50690-4c77-4616-aa83-edab4cf75174",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1345.6370463416547,
                     "y": 487.2111314655259,
                     "type": "concept",
@@ -5355,7 +5355,7 @@ const sheds = [
                 },
                 {
                     "uuid": "7e1461c7-7468-4447-9891-e68c8b29a259",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 799,
                     "y": 459,
                     "type": "concept",
@@ -5381,7 +5381,7 @@ const sheds = [
                 },
                 {
                     "uuid": "2a959b28-a3d6-428a-b793-1ff91f6d4408",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 732,
                     "y": 454,
                     "type": "concept",
@@ -5407,7 +5407,7 @@ const sheds = [
                 },
                 {
                     "uuid": "46c1d63d-448e-4dc2-be9f-fe1bf8aabb36",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1161.1266920705898,
                     "y": -69.15183614715795,
                     "type": "concept",
@@ -5424,7 +5424,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "f881e977-bf08-41ed-aa8d-2c98cd8c3186",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1550,
                     "y": 309,
                     "type": "concept",
@@ -5433,7 +5433,7 @@ const sheds = [
                 },
                 {
                     "uuid": "2e97b339-ea77-4569-a17d-c967e654a34a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1554,
                     "y": 371,
                     "type": "concept",
@@ -5485,7 +5485,7 @@ const sheds = [
                 },
                 {
                     "uuid": "cc79fb8c-b745-42e7-b219-460ffc8cc844",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1552,
                     "y": 248,
                     "type": "concept",
@@ -5502,7 +5502,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "2e97b339-ea77-4569-a17d-c967e654a34a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1554,
                     "y": 371,
                     "type": "concept",
@@ -5511,7 +5511,7 @@ const sheds = [
                 },
                 {
                     "uuid": "9055d788-3f36-418e-af3b-b493e48d9f04",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1597,
                     "y": 463,
                     "type": "concept",
@@ -5528,7 +5528,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "2e97b339-ea77-4569-a17d-c967e654a34a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1554,
                     "y": 371,
                     "type": "concept",
@@ -5537,7 +5537,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d8e1a714-0e18-4860-ab2c-189d4f016b12",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1654,
                     "y": 307,
                     "type": "concept",
@@ -5589,7 +5589,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d4eda018-4bd8-4d8a-89aa-cf1a6bfd0f1d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 933,
                     "y": 238,
                     "type": "organization",
@@ -5667,7 +5667,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d061d8a5-881e-4346-af45-2dd03569b48d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1222,
                     "y": 130,
                     "type": "person",
@@ -5684,7 +5684,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "9055d788-3f36-418e-af3b-b493e48d9f04",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1597,
                     "y": 463,
                     "type": "concept",
@@ -5719,7 +5719,7 @@ const sheds = [
                 },
                 {
                     "uuid": "69571019-844c-4877-ad89-e8d477128b56",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1417.2597381082057,
                     "y": 451.3166731444312,
                     "type": "concept",
@@ -5745,7 +5745,7 @@ const sheds = [
                 },
                 {
                     "uuid": "69571019-844c-4877-ad89-e8d477128b56",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1417.2597381082057,
                     "y": 451.3166731444312,
                     "type": "concept",
@@ -5771,7 +5771,7 @@ const sheds = [
                 },
                 {
                     "uuid": "8cb9afe5-79c7-452e-a55e-047d32875b46",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 736,
                     "y": 702,
                     "type": "concept",
@@ -5788,7 +5788,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "5a436245-de4b-4678-89ac-8fbe66bb931a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 951,
                     "y": 364,
                     "type": "concept",
@@ -5797,7 +5797,7 @@ const sheds = [
                 },
                 {
                     "uuid": "56ccef8b-2e02-402f-8a4f-e57420fe629a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 837,
                     "y": 258,
                     "type": "concept",
@@ -5814,7 +5814,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "8cb9afe5-79c7-452e-a55e-047d32875b46",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 736,
                     "y": 702,
                     "type": "concept",
@@ -5849,7 +5849,7 @@ const sheds = [
                 },
                 {
                     "uuid": "ebb9ed9c-b33a-4d7b-9646-cd434d1c1736",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 596.130949279783,
                     "y": 670.2084634525064,
                     "type": "concept",
@@ -5875,7 +5875,7 @@ const sheds = [
                 },
                 {
                     "uuid": "b15d478d-9d64-4684-b213-384f4180e9d6",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 599,
                     "y": 536,
                     "type": "person",
@@ -5892,7 +5892,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "b15d478d-9d64-4684-b213-384f4180e9d6",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 599,
                     "y": 536,
                     "type": "person",
@@ -5901,7 +5901,7 @@ const sheds = [
                 },
                 {
                     "uuid": "916d8b1b-4e1a-4cb8-b9c0-c312bf061c5d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 458,
                     "y": 537,
                     "type": "concept",
@@ -5918,7 +5918,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "ab68c765-0a2b-45e4-9c48-ef1c6697bb34",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 503,
                     "y": 134,
                     "type": "person",
@@ -5944,7 +5944,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "ab68c765-0a2b-45e4-9c48-ef1c6697bb34",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 503,
                     "y": 134,
                     "type": "person",
@@ -5953,7 +5953,7 @@ const sheds = [
                 },
                 {
                     "uuid": "2c0d8b31-9a2d-4822-827c-3ea30c60474d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 506,
                     "y": 189,
                     "type": "organization",
@@ -5970,7 +5970,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "72ea73a3-5b79-4788-a55d-e69a0486b80a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 809.5561771550169,
                     "y": 361.8661810206088,
                     "type": "concept",
@@ -5979,7 +5979,7 @@ const sheds = [
                 },
                 {
                     "uuid": "e98e7caa-779f-434f-83f1-d3cf471f45cc",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 693,
                     "y": 297,
                     "type": "concept",
@@ -5996,7 +5996,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "e98e7caa-779f-434f-83f1-d3cf471f45cc",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 693,
                     "y": 297,
                     "type": "concept",
@@ -6022,7 +6022,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "72ea73a3-5b79-4788-a55d-e69a0486b80a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 809.5561771550169,
                     "y": 361.8661810206088,
                     "type": "concept",
@@ -6031,7 +6031,7 @@ const sheds = [
                 },
                 {
                     "uuid": "56ccef8b-2e02-402f-8a4f-e57420fe629a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 837,
                     "y": 258,
                     "type": "concept",
@@ -6048,7 +6048,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "8570f6db-67f4-4025-99bc-e1291fc93356",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 622.8578196901773,
                     "y": 301.8418748876102,
                     "type": "concept",
@@ -6057,7 +6057,7 @@ const sheds = [
                 },
                 {
                     "uuid": "e98e7caa-779f-434f-83f1-d3cf471f45cc",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 693,
                     "y": 297,
                     "type": "concept",
@@ -6083,7 +6083,7 @@ const sheds = [
                 },
                 {
                     "uuid": "9055d788-3f36-418e-af3b-b493e48d9f04",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1597,
                     "y": 463,
                     "type": "concept",
@@ -6100,7 +6100,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "468c5e76-a2cc-4234-9f71-3adbce828541",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1286,
                     "y": 233,
                     "type": "concept",
@@ -6126,7 +6126,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "d061d8a5-881e-4346-af45-2dd03569b48d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1222,
                     "y": 130,
                     "type": "person",
@@ -6135,7 +6135,7 @@ const sheds = [
                 },
                 {
                     "uuid": "468c5e76-a2cc-4234-9f71-3adbce828541",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1286,
                     "y": 233,
                     "type": "concept",
@@ -6161,7 +6161,7 @@ const sheds = [
                 },
                 {
                     "uuid": "f936d21a-6b1f-4996-9c41-d4e7977ca96a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1118,
                     "y": 125,
                     "type": "organization",
@@ -6178,7 +6178,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "d061d8a5-881e-4346-af45-2dd03569b48d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1222,
                     "y": 130,
                     "type": "person",
@@ -6187,7 +6187,7 @@ const sheds = [
                 },
                 {
                     "uuid": "f936d21a-6b1f-4996-9c41-d4e7977ca96a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1118,
                     "y": 125,
                     "type": "organization",
@@ -6204,7 +6204,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "79d98c85-d5e7-42c6-8285-084018c78134",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1378,
                     "y": 204,
                     "type": "concept",
@@ -6239,7 +6239,7 @@ const sheds = [
                 },
                 {
                     "uuid": "f881e977-bf08-41ed-aa8d-2c98cd8c3186",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1550,
                     "y": 309,
                     "type": "concept",
@@ -6256,7 +6256,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "f881e977-bf08-41ed-aa8d-2c98cd8c3186",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1550,
                     "y": 309,
                     "type": "concept",
@@ -6265,7 +6265,7 @@ const sheds = [
                 },
                 {
                     "uuid": "cc79fb8c-b745-42e7-b219-460ffc8cc844",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1552,
                     "y": 248,
                     "type": "concept",
@@ -6282,7 +6282,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "05550dff-fe1f-40e1-b8fc-66a47ccd7ec7",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 688,
                     "y": 730,
                     "type": "person",
@@ -6291,7 +6291,7 @@ const sheds = [
                 },
                 {
                     "uuid": "8cb9afe5-79c7-452e-a55e-047d32875b46",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 736,
                     "y": 702,
                     "type": "concept",
@@ -6334,7 +6334,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "916d8b1b-4e1a-4cb8-b9c0-c312bf061c5d",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 458,
                     "y": 537,
                     "type": "concept",
@@ -6343,7 +6343,7 @@ const sheds = [
                 },
                 {
                     "uuid": "d6b0edb4-f0b5-467e-a574-0d788429507e",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 460,
                     "y": 609,
                     "type": "concept",
@@ -6360,7 +6360,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "9864c3be-b089-45fe-bbe8-eb3601f43301",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 556,
                     "y": 305,
                     "type": "concept",
@@ -6369,7 +6369,7 @@ const sheds = [
                 },
                 {
                     "uuid": "8570f6db-67f4-4025-99bc-e1291fc93356",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 622.8578196901773,
                     "y": 301.8418748876102,
                     "type": "concept",
@@ -6395,7 +6395,7 @@ const sheds = [
                 },
                 {
                     "uuid": "5ba0cc73-5bf8-4401-984b-c87902574d69",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1142,
                     "y": 376,
                     "type": "book",
@@ -6412,7 +6412,7 @@ const sheds = [
                 ],
                 {
                     "uuid": "5ba0cc73-5bf8-4401-984b-c87902574d69",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 1142,
                     "y": 376,
                     "type": "book",
@@ -6421,7 +6421,7 @@ const sheds = [
                 },
                 {
                     "uuid": "5a436245-de4b-4678-89ac-8fbe66bb931a",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 951,
                     "y": 364,
                     "type": "concept",
@@ -6447,7 +6447,7 @@ const sheds = [
                 },
                 {
                     "uuid": "8cb9afe5-79c7-452e-a55e-047d32875b46",
-                    "scale": 0.6,
+                    "scale": 0.5,
                     "x": 736,
                     "y": 702,
                     "type": "concept",

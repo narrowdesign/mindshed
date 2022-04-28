@@ -147,6 +147,8 @@ body::before {
   text-overflow: ellipsis;
   overflow: auto;
   max-width: 500px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .agent {
@@ -199,6 +201,7 @@ body::before {
 
 .isSelected .agent__label {
   outline: 3px solid white;
+  user-select: auto;
 }
 
 .connection {
